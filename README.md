@@ -17,15 +17,31 @@
 
 ## ✒️ Description
 
-In this turn-based battle card game, players assume the role of a Pokémon trainer and use their Pokémon to battle their opponent's Pokémon. Players play Pokémon to the field and attack their opponent's Pokémon. A Pokémon that has sustained enough damage is Knocked Out, and the player who knocked it out draws a Prize card. There are usually six Prize cards, and the primary win condition is to draw all of them. Other ways to win are by knocking out all the Pokémon the opponent has on the field so that the opponent has none left, or if at the beginning of their opponent's turn there are no cards left to draw in the opponent's deck.
+Welcome to KomíCove, a tranquil yet engaging fishing game set in a picturesque seaside village. In this cozy game, players step into the role of an angler and explore the serene waters of KomíCove to catch a variety of fish, including Common, Rare, and Legendary species. Each successful catch adds to the player’s score, which is essential to surviving the day and progressing to the next. However, the journey isn’t all smooth sailing, as players must reel in fish before they escape and meet daily score thresholds within a time limit to avoid losing. As the days progress, players can unlock upgraded fishing rods that slightly boost the chances of encountering rare and legendary fish, adding a layer of excitement to this otherwise peaceful adventure.
 
 ## 🕹️ Gameplay
 
-Players begin by having one player select heads or tails, and the other flips a coin; the winner of the coin flip will decide who goes first or second. The player going first cannot attack their first turn, unless the card says otherwise. (Dice may be used in place of coins, with even numbers representing heads and odd numbers representing tails). Players then shuffle their decks and draw seven cards, then play one Basic Pokémon onto the field. This Pokémon is known as the Active Pokémon and is usually the one that attacks and receives damage. If a player does not have any Basic Pokémon, they must shuffle and draw a new hand, and the opponent may draw one additional card. Once both players have at least one Basic Pokémon, they can play up to five more Basic Pokémon onto their "Bench" (representing the maximum-carry limit of six from the video games). Players then take the top six cards of their deck and place them to the side as Prize Cards. Play then begins with the player who won the coin flip.
+### Day Progression & Residue Score
+At the start of each day, players cast their line and begin fishing to meet the day’s score threshold within a set timer. If the player exceeds the threshold (e.g., scores 80 points when only 50 are required), the leftover score (30 points) carries over to the next day, giving the player a head start.
 
-Play alternates between players who may take several actions during their turn, including playing new Basic Pokémon, evolving their Pokémon, playing Trainer cards and Energy cards, and using Pokémon Abilities. A player may also retreat their Active Pokémon, switching the Active Pokémon with one on the Bench. At the end of their turn, a player may use one of their Active Pokémon's attacks, provided the prerequisite amount and types of Energy are attached to that Pokémon. Effects from that attack are then activated and damage may be placed on the Defending Pokémon; some attacks simply have effects but do not do damage. Damage may be modified depending on whether the defender has a weakness or a resistance to the attacker's Pokémon type. If the final damage exceeds the defending Pokémon's HP, it is Knocked Out, and the active player takes a prize card and ends their turn.
+### Fish Types
+Players can encounter three types of fish while exploring the fish-rich waters of KomíCove:
+- **Common Fish**: The most abundant and easiest to catch, offering lower score values.
+- **Rare Fish**: Moderately challenging with higher score values and lower spawn rates.
+- **Legendary Fish**: Exceptionally rare, highly valuable, and most likely to appear with upgraded rods.
 
-This implementation of _Pokémon the Trading Card Game_ is a single player experience with an AI. The game is played primarily with the mouse to interact with the cards and general GUI. The players can optionally hit `M` on their keyboard to mute all game sounds.
+### Fishing Mechanics
+Once hooked, players must press the `SPACEBAR` repeatedly to reel in fish. Each fish has hitpoints that decrease with every press of the spacebar. If the player stops reeling or takes too long, the fish escapes. 
+
+### Selling Fish
+Fish are automatically sold as soon as they are caught, converting them into score points instantly. This ensures players consistently earn points toward meeting the day’s threshold without the risk of forgetting to sell their catch.
+
+### Rod Upgrades
+Upon reaching specific score milestones (e.g., 100 points), players are rewarded with upgraded fishing rods for free, without costing or deducting points from their total. These rods improve the chances of encountering Rare and Legendary fish.
+
+### Win/Loss Conditions
+- **Win**: Meet or exceed the daily score threshold within the time limit to progress to the next day.
+- **Loss**: Fail to meet the score threshold before time runs out, results in a Game Over.
 
 ## 📃 Requirements
 
