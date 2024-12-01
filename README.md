@@ -293,10 +293,17 @@ Stardew Valley is used for the game title to place emphasis on relation between 
 
 #### 🔊 Sounds
 
-All sounds were taken from [freesound.org](https://freesound.org) for the actions pertaining to cards.
+All sounds effects are taken from [pixabay.com](https://pixabay.com) and [freesound.org](https://freesound.org/).
 
--   [Shuffle cards](https://freesound.org/people/VKProduktion/sounds/217502/)
--   [Flip card](https://freesound.org/people/Splashdust/sounds/84322/)
+-   [Fish Jumping Splash](https://pixabay.com/sound-effects/fish-jumping-splash-1-40948/)
+-   [Fish Jumping Splash 2](https://pixabay.com/sound-effects/fish-jumping-splash-2-96871/)
+-   [Splash](https://pixabay.com/sound-effects/splash-6213/)
+-   [Fishing Rod Winding](https://freesound.org/people/esperri/sounds/118973/)
+-   [Fishing Rod Reeling](https://freesound.org/people/j1987/sounds/95564/)
+
+The soundtrack is taken from [www.chosic.com](https://www.chosic.com/).
+
+-   [At The End Of All Things by Scott Buckley](https://www.chosic.com/download-audio/59300/)
 
 ### 📚 References
 
