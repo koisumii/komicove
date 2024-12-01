@@ -74,14 +74,154 @@ Upon reaching specific score milestones (e.g., 100 points), players are rewarded
 
 ### 🤖 State Diagram
 
-> [!note]
-> Remember that you'll need diagrams for not only game states but entity states as well.
+```mermaid
+stateDiagram-v2
 
-![State Diagram](./assets/images/StateDiagram.png)
+    title : TitleScreenState
+    play : PlayState
+    menu : MenuState
+    state dayEnd <<choice>>
+    victory: VictoryState
+    gameOver: GameOverState
+
+    [*] --> title
+    title --> play : Press enter
+    play --> menu : Press key
+    menu --> play : Press key
+    play --> dayEnd
+    dayEnd --> victory : if score meets the threshold
+    victory --> play : Press enter
+    dayEnd --> gameOver : if score is less than the threshold
+    gameOver --> title : Play again
+```
+
+```mermaid
+stateDiagram-v2
+
+    idle: PlayerIdleState
+    walk: PlayerWalkingState
+    cast: PlayerCastingState
+    fishIdle: PlayerFishingIdleState
+    state fishOnHook <<choice>>
+    reel: PlayerReelingState
+    hold: PlayerHoldingState
+
+    [*] --> idle
+    idle --> walk : Movement keys
+    walk --> idle : Nothing pressed
+    idle --> cast : Press key
+    cast --> fishIdle : Animation finishes
+    fishIdle --> reel : Fish bites the hook
+    reel --> fishOnHook
+    fishOnHook --> idle : if fish escapes
+    fishOnHook --> hold : if fish is caught
+    hold --> idle : Animation finishes
+```
 
 ### 🗺️ Class Diagram
 
-![Class Diagram](./assets/images/ClassDiagram.png)
+```mermaid
+classDiagram
+
+    class State
+    State : enter()
+    State : exit()
+    State : update(dt)
+    State : render()
+
+    class PlayState
+    PlayState : spawnFish()
+    PlayState --|> State
+
+    class VictoryState
+    VictoryState --|> State
+
+    class GameOverState
+    GameOverState --|> State
+
+    class Popup
+    Popup : message
+    Popup : image
+    Popup : update(dt)
+    Popup : render()
+    Popup "1..*" --> PlayState
+
+    class Player
+    Player : stateMachine
+    Player : initializeStateMachine()
+    Player : update(dt)
+    Player : render()
+    Player "1" --> PlayState
+    Player "1" --> VictoryState
+
+    class Day
+    Day : count
+    Day : update(dt)
+    Day : next()
+    Day : calculateThreshold()
+
+    Day "1" --> PlayState
+    Day "1" --> VictoryState
+    Day "1" --> GameOverState
+
+    class Tile
+    Tile : sprites
+    Tile : id
+    Tile : render(x, y)
+
+    class Layer
+    Layer : width
+    Layer : height
+    Layer : render(x, y)
+    Layer : isTileWater(x, y)
+    Layer : generateTiles(layerData, sprites)
+
+    Tile "1..*" --> Layer
+
+    class Map
+    Map : update(dt)
+    Map : render()
+
+    Layer "*" --> Map
+    Player "1" --> Map
+    Map "1" --> PlayState
+
+    class Fish
+    Fish : rarity
+    Fish : spawnChance
+    Fish : hitpoints
+    Fish : update(dt)
+    Fish : struggle(dt)
+    Fish : hit(damage)
+    Fish : isCaptured() bool
+    Fish : calculateWorth() int
+    Fish "1" --> Player
+
+    class CommonFish
+    CommonFish : struggle(dt)
+    CommonFish --|> Fish
+
+    class RareFish
+    RareFish : struggle(dt)
+    RareFish --|> Fish
+
+    class LegendaryFish
+    LegendaryFish : struggle(dt)
+    LegendaryFish --|> Fish
+
+    class FishingPole
+    FishingPole : luck
+    FishingPole : efficiency
+    FishingPole : calculateDamage()
+
+    Player "1" --> FishingPole
+
+    class FishFactory
+    FishFactory : createInstance(type)$ Fish
+
+    Fish -- FishFactory
+    
+```
 
 ### 🧵 Wireframes
 
