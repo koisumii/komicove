@@ -225,15 +225,36 @@ classDiagram
 > [!note]
 > Your wireframes don't have to be super polished. They can even be black/white and hand drawn. I'm just looking for a rough idea about what you're visualizing.
 
-![Main Menu](./assets/images/Main-Menu.png)
+Title Screen
 
--   _Let's Play_ will navigate to the main game.
--   _Upload Cards_ will navigation to the forms for uploading and parsing the data files for the game.
--   _Change Log_ will navigate the user to a page with a list of features/changes that have been implemented throughout the development of the game.
+![Title Screen](./assets/images/title_screen.png)
 
-![Game Board](./assets/images/Game-Board.png)
+- The player can press enter to proceed to the game.
+- A dynamic background will be added.
 
-We want to keep the GUI as simple and clear as possible by having cards with relevant images to act as a way for the user to intuitively navigate the game. We want to implement a layout that would look like as if one were playing a match of the Pokémon Trading Card Game with physical cards in real life. Clicking on any of the cards will reveal that card's details to the player.
+![Menu Screen](./assets/images/menu_screen.png)
+
+- The player can press P in game to invoke the menu.
+- The menu includes statistics about gameplay, instructions and introduction of the game
+
+![Play Screen](./assets/images/play_screen.png)
+
+- Gameplay takes place in this screen.
+- The player can walk around and fish.
+- Certain decorative collidable objects (e.g. tree) are included in the scene.
+- Statistics like current day, current score and score threshold are displayed.
+- 
+![Victory Screen](./assets/images/victory_screen.png)
+
+- The screen shows at the end of the day if the player has enough score.
+- Score of the player and other information are displayed on screen.
+- From here, the player can continue to the next day by pressing enter.
+
+![Game Over Screen](./assets/images/game_over_screen.png)
+
+- The screen shows at the end of the day if the player doesn't have enough score.
+- Score of the player and other information are displayed on screen.
+- The game will restart (the player will be sent to title screen) upon enter key press.
 
 ### 🎨 Assets
 
