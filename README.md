@@ -228,17 +228,21 @@ classDiagram
 > [!note]
 > Your wireframes don't have to be super polished. They can even be black/white and hand drawn. I'm just looking for a rough idea about what you're visualizing.
 
-Title Screen
+<br>Title Screen
 
 ![Title Screen](./assets/images/title_screen.png)
 
 - The player can press enter to proceed to the game.
 - A dynamic background will be added.
 
+<br>Menu Screen
+
 ![Menu Screen](./assets/images/menu_screen.png)
 
 - The player can press P in game to invoke the menu.
 - The menu includes statistics about gameplay, instructions and introduction of the game
+
+<br>Play Screen
 
 ![Play Screen](./assets/images/play_screen.png)
 
@@ -246,12 +250,16 @@ Title Screen
 - The player can walk around and fish.
 - Certain decorative collidable objects (e.g. tree) are included in the scene.
 - Statistics like current day, current score and score threshold are displayed.
-- 
+
+<br>Victory Screen
+
 ![Victory Screen](./assets/images/victory_screen.png)
 
 - The screen shows at the end of the day if the player has enough score.
 - Score of the player and other information are displayed on screen.
 - From here, the player can continue to the next day by pressing enter.
+
+<br>Game Over Screen
 
 ![Game Over Screen](./assets/images/game_over_screen.png)
 
