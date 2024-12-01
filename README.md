@@ -232,8 +232,8 @@ classDiagram
 
 ![Title Screen](./assets/images/title_screen.png)
 
+- This screen appears after the game is opened.
 - The player can press enter to proceed to the game.
-- A dynamic background will be added.
 
 <br>Menu Screen
 
@@ -248,8 +248,10 @@ classDiagram
 
 - Gameplay takes place in this screen.
 - The player can walk around and fish.
-- Certain decorative collidable objects (e.g. tree) are included in the scene.
 - Statistics like current day, current score and score threshold are displayed.
+- A prompt is shown when the player could reel in the fish.
+- A score (+XX) appears when the fish is caught, indicating its worth.
+- A pop-up is displayed to show notifications such as getting new fishing rod.
 
 <br>Victory Screen
 
