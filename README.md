@@ -273,20 +273,22 @@ classDiagram
 
 We used [app.diagrams.net](https://app.diagrams.net/) to create the wireframes. Wireframes are the equivalent to the skeleton of a web app since they are used to describe the functionality of the product and the users experience.
 
-We plan on following trends already found in other trading card video games, such as Pokémon Trading Card Game Online, Hearthstone, Magic the Gathering Arena, and Gwent.
+We take inspiration from games with similar elements (fishing), such as Stardew Valley and Minecraft, and decide to find a balance between reality and game to provide players with relaxing and fun gameplay.
 
-The GUI will be kept simple and playful, as to make sure the game is easy to understand what each component does and is, as well as light hearted to keep to the Pokémon theme.
+The GUI is kept minimalistic, with color palettes that resemble art style of in-game character and terrain - pixel, cartoon, bright.
 
 #### 🖼️ Images
 
--   Most images will be used from the well known community driven wikipedia site, [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Main_Page).
--   Especially their [Trading Card Game section](<https://bulbapedia.bulbagarden.net/wiki/Full_Art_card_(TCG)>).
+-   Most images in game (including character, equipment, tile) will be taken from [Sunnyside World](https://danieldiggle.itch.io/sunnyside), a free asset pack available on `itch.io`.
+
+-   Certain fish icons are taken from [Bagatan Tsuri : Let's go Fishing!](https://pixerelia.itch.io/lets-go-fishing) and [Cozy Fishing](https://shubibubi.itch.io/cozy-fishing), asset packs available on `itch.io`.
 
 #### ✏️ Fonts
 
-For fonts, a simple sans-serif like Roboto will look quite nice. It's a font that is legible, light on storage size, and fun to keep with the theme we're going for. We also used a more cartoonish Pokemon font for the title screen.
+Roboto is selected for its readability.
+Stardew Valley is used for the game title to place emphasis on relation between the game and nature with the wooden texture, creating a casual atmosphere suitable for relaxing gameplay.
 
--   [Pokemon](https://www.dafont.com/pokemon.font)
+-   [Stardew Valley](https://www.dafont.com/stardew-valley.font)
 -   [Roboto](https://fonts.google.com/specimen/Roboto)
 
 #### 🔊 Sounds
@@ -298,4 +300,4 @@ All sounds were taken from [freesound.org](https://freesound.org) for the action
 
 ### 📚 References
 
--   [Pokemon Rulebook](http://assets.pokemon.com/assets/cms2/pdf/trading-card-game/rulebook/xy8-rulebook-en.pdf)
+-   N/A
