@@ -47,27 +47,30 @@ Upon reaching specific score milestones (e.g., 100 points), players are rewarded
 3. The system shall transition to the PlayState when the game starts.
 4. The system shall initialize the timer and daily score threshold at the start of each day.
 5. The system shall generate fish in the fishing area, varying in type and spawn rates (Common, Rare, Legendary).
-6. The user shall press a key to cast their fishing line.
-7. The system shall transition to the CastingState and display the casting animation.
-8. The system shall transition to the FishingIdleState after the casting animation ends.
-9. The system shall notify the user when a fish bites the hook.
-10. The user shall press the SPACEBAR repeatedly to reel in the fish.
-11. The system shall decrease the fish's hitpoints with each press of the SPACEBAR.
-12. The system shall release the fish if the user stops reeling or takes too long to press the SPACEBAR.
-13. The system shall transition to the ReelingState when the user starts reeling in a fish.
-14. The system shall automatically sell the fish upon being caught, adding its score to the player’s total.
-15. The system shall transition to the HoldingState after a fish is caught.
-16. The system shall play a successful audio cue in the HoldingState to encourage the player.
-17. The system shall check the player’s score when the timer runs out.
-18. The system shall transition to the VictoryState if the player meets or exceeds the daily score threshold.
-19. The system shall transition to the GameOverState if the player’s score is below the daily threshold when the timer expires.
-20. The system shall carry over any leftover score points to the next day if the player exceeds the threshold.
-21. The system shall reward the user with an upgraded fishing rod upon reaching specific score milestones.
-22. The system shall increase the chances of encountering Rare and Legendary fish when an upgraded rod is used.
-23. The system shall transition to the MenuState when selected by the user.
-24. The MenuState shall display the player’s statistics, including the number of fish caught.
-25. The MenuState shall include an option to view the tutorial, which will display a static page explaining gameplay.
-26. The system shall allow the user to restart the game after GameOverState by pressing a key.
+6. The system shall transition to the PlayerWalkingState, allowing the user to walk and find a fishing spot.
+7. The system shall restrict the player's movement to accessible areas, such as the dock or shoreline, preventing the player from walking into the water or parts of the map not intended for gameplay.
+8. The system shall allow the user to cast their fishing line from any position near a body of water.
+9. The user shall press a key to cast their fishing line.
+10. The system shall transition to the CastingState and display the casting animation.
+11. The system shall transition to the FishingIdleState after the casting animation ends.
+12. The system shall notify the user when a fish bites the hook.
+13. The user shall press the SPACEBAR repeatedly to reel in the fish.
+14. The system shall decrease the fish's hitpoints with each press of the SPACEBAR.
+15. The system shall release the fish if the user stops reeling or takes too long to press the SPACEBAR.
+16. The system shall transition to the ReelingState when the user starts reeling in a fish.
+17. The system shall automatically sell the fish upon being caught, adding its score to the player's total.
+18. The system shall transition to the HoldingState after a fish is caught.
+19. The system shall play a successful audio cue in the HoldingState to encourage the player.
+20. The system shall check the player's score when the timer runs out.
+21. The system shall transition to the VictoryState if the player meets or exceeds the daily score threshold.
+22. The system shall transition to the GameOverState if the player's score is below the daily threshold when the timer expires.
+23. The system shall carry over any leftover score points to the next day if the player exceeds the threshold.
+24. The system shall reward the user with an upgraded fishing rod upon reaching specific score milestones.
+25. The system shall increase the chances of encountering Rare and Legendary fish when an upgraded rod is used.
+26. The system shall transition to the MenuState when selected by the user.
+27. The MenuState shall display the player's statistics, including the number of fish caught.
+28. The MenuState shall include an option to view the tutorial, which will display a static page explaining gameplay.
+29. The system shall allow the user to restart the game after GameOverState by pressing a key.
 
 ### 🤖 State Diagram
 
