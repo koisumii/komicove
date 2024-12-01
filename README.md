@@ -10,10 +10,7 @@
 
 ---
 
-# Sample Proposal - Pokémon the Trading Card Game
-
-> [!note]
-> This was taken from a project I did in university so the scope is **much** larger than what I'm expecting from you in terms of number of features!
+# KomíCove ˖𓍢ִִ໋🦈
 
 ## ✒️ Description
 
