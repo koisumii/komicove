@@ -55,7 +55,7 @@ Upon reaching specific score milestones (e.g., 100 points), players are rewarded
 8. The system shall transition to the FishingIdleState after the casting animation ends.
 9. The system shall notify the user when a fish bites the hook.
 10. The user shall press the SPACEBAR repeatedly to reel in the fish.
-11. The system shall decrease the fish’s hitpoints with each press of the SPACEBAR.
+11. The system shall decrease the fish's hitpoints with each press of the SPACEBAR.
 12. The system shall release the fish if the user stops reeling or takes too long to press the SPACEBAR.
 13. The system shall transition to the ReelingState when the user starts reeling in a fish.
 14. The system shall automatically sell the fish upon being caught, adding its score to the player’s total.
