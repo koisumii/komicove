@@ -45,35 +45,32 @@ Upon reaching specific score milestones (e.g., 100 points), players are rewarded
 
 ## 📃 Requirements
 
-> [!note]
-> This was a web project so that's why you'll see requirements about logging in and uploading data which for you is irrelevant. Focus more on the requirements describing actions taken for gameplay.
-
-1. The user shall register to be able to login.
-2. The user shall login to be able to play a game.
-3. The user shall upload a valid deck file.
-4. The user shall upload a valid cards file.
-5. The user shall upload a valid abilities file.
-6. The user shall select which deck they will use in the game.
-7. The user shall select which deck the AI will use in the game.
-8. The system shall "flip a coin" to decide which player goes first.
-9. The system shall shuffle the user's deck.
-10. The system shall draw the top 7 cards from the user's deck.
-11. If the user does not have a Basic Pokémon in their hand the system shall "mulligan" until they do.
-12. Upon each mulligan, the AI shall draw a card.
-13. The user shall put one of their Basic Pokémon face down as their Active Pokémon.
-14. The user shall put up to 5 more Basic Pokémon face down on their Bench.
-15. Upon a new turn, the system shall draw a card from the deck of the current player.
-16. Upon a new turn, the system shall place the drawn card in the hand of the current player.
-17. The user shall put (up to 5 total) Basic Pokémon cards from their hand onto their Bench.
-18. The user shall Evolve their Pokémon as many times as they choose.
-19. The user shall attach an Energy card from their hand to one of their Pokémon once per turn.
-20. The user shall play Trainer cards (as many as they want, but only one Supporter card and one Stadium card per turn).
-21. The user shall Retreat their Active Pokémon once per turn.
-22. The user shall use as many Abilities as they choose.
-23. The user shall attack the opponent's Active Pokémon.
-24. After a player attacks, the system shall end their turn and start their opponent's turn.
-25. The system shall execute any "special conditions" after a turn is over.
-26. The user shall pick a Victory Card when the opposing Active Pokémon dies.
+1. The system shall begin the game in the TitleScreenState.
+2. The user shall press Enter to start the game.
+3. The system shall transition to the PlayState when the game starts.
+4. The system shall initialize the timer and daily score threshold at the start of each day.
+5. The system shall generate fish in the fishing area, varying in type and spawn rates (Common, Rare, Legendary).
+6. The user shall press a key to cast their fishing line.
+7. The system shall transition to the CastingState and display the casting animation.
+8. The system shall transition to the FishingIdleState after the casting animation ends.
+9. The system shall notify the user when a fish bites the hook.
+10. The user shall press the SPACEBAR repeatedly to reel in the fish.
+11. The system shall decrease the fish’s hitpoints with each press of the SPACEBAR.
+12. The system shall release the fish if the user stops reeling or takes too long to press the SPACEBAR.
+13. The system shall transition to the ReelingState when the user starts reeling in a fish.
+14. The system shall automatically sell the fish upon being caught, adding its score to the player’s total.
+15. The system shall transition to the HoldingState after a fish is caught.
+16. The system shall play a successful audio cue in the HoldingState to encourage the player.
+17. The system shall check the player’s score when the timer runs out.
+18. The system shall transition to the VictoryState if the player meets or exceeds the daily score threshold.
+19. The system shall transition to the GameOverState if the player’s score is below the daily threshold when the timer expires.
+20. The system shall carry over any leftover score points to the next day if the player exceeds the threshold.
+21. The system shall reward the user with an upgraded fishing rod upon reaching specific score milestones.
+22. The system shall increase the chances of encountering Rare and Legendary fish when an upgraded rod is used.
+23. The system shall transition to the MenuState when selected by the user.
+24. The MenuState shall display the player’s statistics, including the number of fish caught.
+25. The MenuState shall include an option to view the tutorial, which will display a static page explaining gameplay.
+26. The system shall allow the user to restart the game after GameOverState by pressing a key.
 
 ### 🤖 State Diagram
 
