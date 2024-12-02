@@ -298,6 +298,7 @@ All sounds effects are taken from [pixabay.com](https://pixabay.com) and [freeso
 -   [Fish Jumping Splash](https://pixabay.com/sound-effects/fish-jumping-splash-1-40948/)
 -   [Fish Jumping Splash 2](https://pixabay.com/sound-effects/fish-jumping-splash-2-96871/)
 -   [Splash](https://pixabay.com/sound-effects/splash-6213/)
+-   [Cymbal Reverse](https://pixabay.com/sound-effects/reverse-cymbal-sound-effect-239951/)
 -   [Fishing Rod Winding](https://freesound.org/people/esperri/sounds/118973/)
 -   [Fishing Rod Reeling](https://freesound.org/people/j1987/sounds/95564/)
 
