@@ -1,11 +1,34 @@
 {
 	"images": [
-
+		{
+			"name": "background",
+			"path": "./assets/images/background.png",
+			"width": 1024,
+			"height": 512
+		}
 	],
 	"fonts": [
-
+		{
+			"name": "StardewValley",
+			"path": "./assets/fonts/stardew_valley.ttf"
+		},
+		{
+			"name": "Roboto",
+			"path": "./assets/fonts/roboto_regular.ttf"
+		}
 	],
 	"sounds": [
-		
+		{
+			"name": "reverse-cymbal",
+			"path": "./assets/sounds/reverse_cymbal.mp3",
+			"size": 1,
+			"volume": 1
+		},
+		{
+			"name": "at-the-end-of-all-things",
+			"path": "./assets/sounds/at_the_end_of_all_things.mp3",
+			"size": 1,
+			"volume": 1
+		}
 	]
 }
