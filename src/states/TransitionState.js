@@ -14,12 +14,16 @@ export default class TransitionState extends State {
         this.source = null;
         this.destination = null;
         this.type = null;
-        this.alpha
+        this.alpha = null;
+        this.options = null;
     }
 
     enter(parameters) {
         this.source = parameters.source;
         this.destination = parameters.destination;
+        if (parameters.options !== undefined)
+            this.options = parameters.options;
+        
         switch (parameters.type) {
             case TransitionType.FadeIn:
                 this.startTransition(1, 0);
@@ -45,7 +49,7 @@ export default class TransitionState extends State {
             1.5,
             Easing.linear,
             () => {
-                stateMachine.change(this.destination);
+                stateMachine.change(this.destination, this.options);
             });
     }
 }

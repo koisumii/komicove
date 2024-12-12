@@ -5,6 +5,12 @@
 			"path": "./assets/images/background.png",
 			"width": 1024,
 			"height": 512
+		},
+		{
+			"name": "tiles",
+			"path": "./assets/images/tiles.png",
+			"width": 1024,
+			"height": 1024
 		}
 	],
 	"fonts": [
@@ -28,7 +34,8 @@
 			"name": "at-the-end-of-all-things",
 			"path": "./assets/sounds/at_the_end_of_all_things.mp3",
 			"size": 1,
-			"volume": 1
+			"volume": 1,
+			"loop": true
 		}
 	]
 }

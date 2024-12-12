@@ -7,16 +7,19 @@ import { CANVAS_HEIGHT, CANVAS_WIDTH, context, images, input, sounds, stateMachi
 import { TransitionType } from "./TransitionState.js";
 
 export default class TitleScreenState extends State {
-	constructor() {
+	/**
+	 * Contains background image, game title and a prompt.
+	 * After the enter key is pressed, the transition begins,
+	 * then the player is sent to the play state.
+	 * @param {object} mapDefinition
+	 */
+	constructor(mapDefinition) {
 		super();
-	}
 
-	enter() {
-		sounds.play(SoundName.AtTheEndOfAllThings);
+		this.mapDefinition = mapDefinition;
 	}
 
 	exit() {
-		sounds.pause(SoundName.AtTheEndOfAllThings);
 		sounds.play(SoundName.ReverseCymbal);
 	}
 
@@ -25,7 +28,8 @@ export default class TitleScreenState extends State {
 			stateMachine.change(GameStateName.Transition, {
 				source: stateMachine.currentState,
 				destination: GameStateName.Play,
-				type: TransitionType.FadeOut
+				type: TransitionType.FadeOut,
+				options: this.mapDefinition
 			});
 		}
 	}
