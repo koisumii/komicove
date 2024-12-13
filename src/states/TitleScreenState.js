@@ -39,7 +39,7 @@ export default class TitleScreenState extends State {
 		context.filter = 'brightness(50%)';
 		images.render(ImageName.Background, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
 		context.restore();
-		context.font = '60px StardewValley';
+		context.font = '60px Fishland';
 		context.fillStyle = 'white';
 		context.textBaseline = 'middle';
 		context.textAlign = 'center';

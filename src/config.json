@@ -15,8 +15,8 @@
 	],
 	"fonts": [
 		{
-			"name": "StardewValley",
-			"path": "./assets/fonts/stardew_valley.ttf"
+			"name": "Fishland",
+			"path": "./assets/fonts/Fishland.otf"
 		},
 		{
 			"name": "Roboto",
