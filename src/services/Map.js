@@ -1,7 +1,6 @@
 import Colour from "../enums/Colour.js";
 import Sprite from "../../lib/Sprite.js";
 import Vector from "../../lib/Vector.js";
-import Player from "../entities/Player.js";
 import ImageName from "../enums/ImageName.js";
 import Tile from "./Tile.js";
 import Layer from "./Layer.js";
@@ -31,18 +30,15 @@ export default class Map {
 		this.bottomLayer = new Layer(mapDefinition.layers[Layer.BOTTOM], sprites);
 		this.collisionLayer = new Layer(mapDefinition.layers[Layer.COLLISION], sprites);
 		this.topLayer = new Layer(mapDefinition.layers[Layer.TOP], sprites);
-		this.player = new Player({ position: new Vector(7, 5) }, this);
 	}
 
 	update(dt) {
-		this.player.update(dt);
 	}
 
 	render() {
 		this.backgroundLayer.render();
 		this.bottomLayer.render();
 		this.collisionLayer.render();
-		this.player.render();
 		this.topLayer.render();
 
 		if (DEBUG) {
