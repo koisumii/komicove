@@ -28,13 +28,13 @@
 			"name": "reverse-cymbal",
 			"path": "./assets/sounds/reverse_cymbal.mp3",
 			"size": 1,
-			"volume": 1
+			"volume": 0.2
 		},
 		{
 			"name": "at-the-end-of-all-things",
 			"path": "./assets/sounds/at_the_end_of_all_things.mp3",
 			"size": 1,
-			"volume": 1,
+			"volume": 0.5,
 			"loop": true
 		}
 	]
