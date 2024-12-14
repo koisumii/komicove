@@ -11,36 +11,16 @@ export const context =
 	canvas.getContext('2d') || new CanvasRenderingContext2D();
 
 // Replace these values according to how big you want your canvas.
-export const CANVAS_WIDTH = 384;
-export const CANVAS_HEIGHT = 216;
+export const CANVAS_WIDTH = 480;
+export const CANVAS_HEIGHT = 352;
 
 const resizeCanvas = () => {
-
-	const aspectRatio = CANVAS_WIDTH / CANVAS_HEIGHT;
-	const windowAspectRatio = window.innerWidth / window.innerHeight;
-
-	canvas.width = window.innerWidth;
-	canvas.height = window.innerHeight;
-
 	const scaleX = window.innerWidth / CANVAS_WIDTH;
 	const scaleY = window.innerHeight / CANVAS_HEIGHT;
 	const scale = Math.min(scaleX, scaleY); // Maintain aspect ratio
 
-	if(aspectRatio > windowAspectRatio) {
-		context.translate(0, (window.innerHeight - window.innerWidth / aspectRatio) / 2)
-	}
-	else{
-		context.translate((window.innerWidth - window.innerHeight * aspectRatio) / 2, 0)
-	}
-
-	// canvas.style.width = `${CANVAS_WIDTH * scale}px`;
-	// canvas.style.height = `${CANVAS_HEIGHT * scale}px`;
-
-	context.scale(scale,scale)
-	context.beginPath();
-	context.rect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT)
-	context.clip();
-	context.imageSmoothingEnabled = false // takes as pixels
+	canvas.style.width = `${CANVAS_WIDTH * scale}px`;
+	canvas.style.height = `${CANVAS_HEIGHT * scale}px`;
 };
 
 // Listen for canvas resize events

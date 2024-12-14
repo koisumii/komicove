@@ -36,13 +36,6 @@ export default class Map {
 	}
 
 	render() {
-		context.save();
-
-		context.scale(
-			CANVAS_WIDTH / (this.bottomLayer.width * Tile.SIZE),
-			CANVAS_HEIGHT / (this.bottomLayer.height * Tile.SIZE)
-		);
-	
 		this.backgroundLayer.render();
 		this.bottomLayer.render();
 		this.collisionLayer.render();
@@ -51,7 +44,6 @@ export default class Map {
 		if (DEBUG) {
 			Map.renderGrid();
 		}
-		context.restore();
 	}	
 
 	/**

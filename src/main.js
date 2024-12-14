@@ -21,15 +21,15 @@ import {
 	sounds,
 	stateMachine,
 } from './globals.js';
-import PlayState from './states/PlayState.js';
-import GameOverState from './states/GameOverState.js';
-import VictoryState from './states/VictoryState.js';
-import TitleScreenState from './states/TitleScreenState.js';
-import TransitionState from './states/TransitionState.js';
+import PlayState from './states/game/PlayState.js';
+import GameOverState from './states/game/GameOverState.js';
+import VictoryState from './states/game/VictoryState.js';
+import TitleScreenState from './states/game/TitleScreenState.js';
+import TransitionState from './states/game/TransitionState.js';
 
 // Set the dimensions of the play area.
-// canvas.width = CANVAS_WIDTH;
-// canvas.height = CANVAS_HEIGHT;
+canvas.width = CANVAS_WIDTH;
+canvas.height = CANVAS_HEIGHT;
 canvas.setAttribute('tabindex', '1'); // Allows the canvas to receive user input.
 
 // Now that the canvas element has been prepared, we can add it to the DOM.

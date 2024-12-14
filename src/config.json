@@ -11,6 +11,11 @@
 			"path": "./assets/images/tiles.png",
 			"width": 2048,
 			"height": 2048
+		}, {
+			"name": "player_walk",
+			"path": "./assets/images/player_walk.png",
+			"width": 224,
+			"height": 40
 		}
 	],
 	"fonts": [

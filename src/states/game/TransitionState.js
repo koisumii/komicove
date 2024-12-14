@@ -1,6 +1,6 @@
-import Easing from "../../lib/Easing.js";
-import State from "../../lib/State.js";
-import { CANVAS_HEIGHT, CANVAS_WIDTH, context, stateMachine, timer } from "../globals.js";
+import Easing from "../../../lib/Easing.js";
+import State from "../../../lib/State.js";
+import { CANVAS_HEIGHT, CANVAS_WIDTH, context, stateMachine, timer } from "../../globals.js";
 
 export const TransitionType = {
     FadeIn: 0,
