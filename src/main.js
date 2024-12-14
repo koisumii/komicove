@@ -28,8 +28,8 @@ import TitleScreenState from './states/TitleScreenState.js';
 import TransitionState from './states/TransitionState.js';
 
 // Set the dimensions of the play area.
-canvas.width = CANVAS_WIDTH;
-canvas.height = CANVAS_HEIGHT;
+// canvas.width = CANVAS_WIDTH;
+// canvas.height = CANVAS_HEIGHT;
 canvas.setAttribute('tabindex', '1'); // Allows the canvas to receive user input.
 
 // Now that the canvas element has been prepared, we can add it to the DOM.

@@ -36,15 +36,22 @@ export default class Map {
 	}
 
 	render() {
+		context.save();
+		context.scale(
+			CANVAS_WIDTH / (this.bottomLayer.width * Tile.SIZE),
+			CANVAS_HEIGHT / (this.bottomLayer.height * Tile.SIZE)
+		);
+	
 		this.backgroundLayer.render();
 		this.bottomLayer.render();
 		this.collisionLayer.render();
 		this.topLayer.render();
-
+	
 		if (DEBUG) {
 			Map.renderGrid();
 		}
-	}
+		context.restore();
+	}	
 
 	/**
 	 * Draws a grid of squares on the screen to help with debugging.
