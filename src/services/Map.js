@@ -37,6 +37,7 @@ export default class Map {
 
 	render() {
 		context.save();
+
 		context.scale(
 			CANVAS_WIDTH / (this.bottomLayer.width * Tile.SIZE),
 			CANVAS_HEIGHT / (this.bottomLayer.height * Tile.SIZE)

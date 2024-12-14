@@ -37,6 +37,9 @@ const resizeCanvas = () => {
 	// canvas.style.height = `${CANVAS_HEIGHT * scale}px`;
 
 	context.scale(scale,scale)
+	context.beginPath();
+	context.rect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT)
+	context.clip();
 	context.imageSmoothingEnabled = false // takes as pixels
 };
 
