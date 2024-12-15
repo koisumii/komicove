@@ -230,21 +230,21 @@ classDiagram
 
 <br>Title Screen
 
-![Title Screen](./assets/images/title_screen.png)
+![Title Screen](./assets/images/demo/title_screen.png)
 
 - This screen appears after the game is opened.
 - The player can press enter to proceed to the game.
 
 <br>Menu Screen
 
-![Menu Screen](./assets/images/menu_screen.png)
+![Menu Screen](./assets/images/demo/menu_screen.png)
 
 - The player can press P in game to invoke the menu.
 - The menu includes statistics about gameplay, instructions and introduction of the game
 
 <br>Play Screen
 
-![Play Screen](./assets/images/play_screen.png)
+![Play Screen](./assets/images/demo/play_screen.png)
 
 - Gameplay takes place in this screen.
 - The player can walk around and fish.
@@ -255,7 +255,7 @@ classDiagram
 
 <br>Victory Screen
 
-![Victory Screen](./assets/images/victory_screen.png)
+![Victory Screen](./assets/images/demo/victory_screen.png)
 
 - The screen shows at the end of the day if the player has enough score.
 - Score of the player and other information are displayed on screen.
@@ -263,7 +263,7 @@ classDiagram
 
 <br>Game Over Screen
 
-![Game Over Screen](./assets/images/game_over_screen.png)
+![Game Over Screen](./assets/images/demo/game_over_screen.png)
 
 - The screen shows at the end of the day if the player doesn't have enough score.
 - Score of the player and other information are displayed on screen.
