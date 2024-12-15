@@ -14,16 +14,19 @@ export default class TransitionState extends State {
         this.source = null;
         this.destination = null;
         this.type = null;
-        this.alpha = null;
-        this.options = null;
+        this.canvasOptions = {
+            alpha: null
+        };
+        this.params = null;
     }
 
     enter(parameters) {
         this.source = parameters.source;
         this.destination = parameters.destination;
-        if (parameters.options !== undefined)
-            this.options = parameters.options;
-        
+        this.callback = parameters.callback;
+        if (parameters.params !== undefined)
+            this.params = parameters.params;
+
         switch (parameters.type) {
             case TransitionType.FadeIn:
                 this.startTransition(1, 0);
@@ -36,20 +39,23 @@ export default class TransitionState extends State {
 
     render() {
         this.source.render();
-        context.fillStyle = `rgb(255, 255, 255, ${this.alpha})`;
+        context.fillStyle = `rgb(255, 255, 255, ${this.canvasOptions.alpha})`;
         context.fillRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
     }
 
     startTransition(startAlpha, endAlpha) {
-        this.alpha = startAlpha;
-        timer.tween(this,
+        this.canvasOptions.alpha = startAlpha;
+        timer.tween(this.canvasOptions,
             {
                 alpha: endAlpha
             },
             1.5,
             Easing.linear,
             () => {
-                stateMachine.change(this.destination, this.options);
+                if (this.callback !== undefined)
+                    this.callback();
+                
+                stateMachine.change(this.destination, this.params);
             });
     }
 }

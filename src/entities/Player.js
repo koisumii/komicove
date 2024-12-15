@@ -35,6 +35,15 @@ export default class Player extends GameEntity {
         // by default shouldFlip is false and the player faces right, used for sprite rendering
         this.shouldFlip = false;
         this.horizontalDirection = Direction.Right;
+        this.sprites = this.walkingSprites;
+
+        this.score = 0;
+        this.totalScore = 0;
+    }
+
+    addScore(amount) {
+        this.score += amount;
+        this.totalScore += amount;
     }
 
     update(dt) {

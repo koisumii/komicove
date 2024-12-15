@@ -54,6 +54,18 @@ export default class PlayerWalkingState extends State {
     }
 
     updateDirection() {
+        if (input.isKeyHeld(Input.KEYS.D) && this.player.horizontalDirection !== Direction.Right) {
+			this.player.horizontalDirection = Direction.Right;
+			input.keysPressed[Input.KEYS.D] = false;
+			return;
+		}
+
+		if (input.isKeyHeld(Input.KEYS.A) && this.player.horizontalDirection !== Direction.Left) {
+			this.player.horizontalDirection = Direction.Left;
+			input.keysPressed[Input.KEYS.A] = false;
+			return;
+		}
+        
         if (input.isKeyHeld(Input.KEYS.S)) {
             this.player.direction = Direction.Down;
             this.player.currentAnimation = this.player.animations["walk-s"];
