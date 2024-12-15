@@ -2,10 +2,13 @@ import Graphic from "../../../lib/Graphic.js";
 import Input from "../../../lib/Input.js";
 import State from "../../../lib/State.js";
 import Vector from "../../../lib/Vector.js";
+import Player from "../../entities/Player.js";
 import GameStateName from "../../enums/GameStateName.js";
 import ImageName from "../../enums/ImageName.js";
 import SoundName from "../../enums/SoundName.js";
 import { CANVAS_HEIGHT, CANVAS_WIDTH, context, images, input, sounds, stateMachine } from "../../globals.js";
+import Day from "../../services/Day.js";
+import Map from "../../services/Map.js";
 import { TransitionType } from "./TransitionState.js";
 
 export default class TitleScreenState extends State {
@@ -18,7 +21,7 @@ export default class TitleScreenState extends State {
 	constructor(mapDefinition) {
 		super();
 
-		this.mapDefinition = mapDefinition;
+		this.map = new Map(mapDefinition);
 
 		/* Information about the background picture in title screen. */
 
@@ -45,7 +48,11 @@ export default class TitleScreenState extends State {
 				source: stateMachine.currentState,
 				destination: GameStateName.Play,
 				type: TransitionType.FadeOut,
-				options: this.mapDefinition
+				params: {
+					map: this.map,
+					day: new Day(),
+					player: new Player(this.map, new Vector(5, 5))
+				}
 			});
 		}
 	}
@@ -64,7 +71,6 @@ export default class TitleScreenState extends State {
 			this.targetWidth,
 			this.targetHeight
 		);
-		// images.render(ImageName.Background, 0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
 		context.restore();
 		context.font = '60px Fishland';
 		context.fillStyle = 'white';

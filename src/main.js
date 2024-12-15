@@ -54,7 +54,7 @@ sounds.load(soundDefinitions);
 stateMachine.add(GameStateName.TitleScreen, new TitleScreenState(mapDefinition));
 stateMachine.add(GameStateName.GameOver, new GameOverState());
 stateMachine.add(GameStateName.Victory, new VictoryState());
-stateMachine.add(GameStateName.Play, new PlayState(mapDefinition));
+stateMachine.add(GameStateName.Play, new PlayState());
 stateMachine.add(GameStateName.Transition, new TransitionState());
 
 stateMachine.change(GameStateName.TitleScreen);
