@@ -23,13 +23,13 @@ export default class PlayerWalkingState extends State {
             https://stackoverflow.com/a/10050831/23561820 
             [...Array(4).keys()]; => [0, 1, 2, 3]
          */
-        this.animation = new Animation([...Array(8).keys()], 0.15);
+        // this.animation = new Animation([...Array(8).keys()], 0.15);
 
         this.isMoving = false;
     }
 
     update(dt) {
-        this.player.currentAnimation = this.animation;
+        this.player.currentAnimation.update(dt)
 
         this.handleMovement();
     }
@@ -56,12 +56,18 @@ export default class PlayerWalkingState extends State {
     updateDirection() {
         if (input.isKeyHeld(Input.KEYS.S)) {
             this.player.direction = Direction.Down;
+            this.player.currentAnimation = this.player.animations["walk-s"];
         } else if (input.isKeyHeld(Input.KEYS.D)) {
             this.player.direction = Direction.Right;
+            this.player.currentAnimation = this.player.animations["walk"];
+            this.player.horizontalDirection = Direction.Right;
         } else if (input.isKeyHeld(Input.KEYS.W)) {
             this.player.direction = Direction.Up;
+            this.player.currentAnimation = this.player.animations["walk-n"];
         } else if (input.isKeyHeld(Input.KEYS.A)) {
             this.player.direction = Direction.Left;
+            this.player.currentAnimation = this.player.animations["walk"];
+            this.player.horizontalDirection = Direction.Left;
         }
     }
 
