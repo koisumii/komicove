@@ -7,8 +7,8 @@ import Tile from "../services/Tile.js";
 
 export default class GameEntity {
     static WIDTH = 28;
-	static HEIGHT = 40;
-    
+    static HEIGHT = 40;
+
     /**
      * 
      * @param {Vector} position 
@@ -16,16 +16,23 @@ export default class GameEntity {
     constructor(position) {
         this.position = position;
         this.direction = Direction.Down;
-        this.canvasPosition = new Vector(this.position.x * Tile.SIZE, this.position.y * Tile.SIZE);
+
+        /**
+         * Horizontal and vertical center point of the entity.
+         */
+        this.canvasPosition = new Vector(
+            this.position.x * Tile.SIZE + GameEntity.WIDTH / 2,
+            this.position.y * Tile.SIZE + GameEntity.HEIGHT / 2
+        );
         this.dimensions = new Vector();
         /** @type {StateMachine?} */
         this.stateMachine = null;
         /** @type {Sprite[]} */
         this.sprites = [];
         /**@type {Animation?} */
-		this.currentAnimation = null;
+        this.currentAnimation = null;
     }
-    
+
     update(dt) {
         this.stateMachine?.update(dt);
         this.currentAnimation?.update(dt);

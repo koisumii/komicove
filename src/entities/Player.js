@@ -4,12 +4,11 @@ import Map from "../services/Map.js";
 import GameEntity from "./GameEntity.js";
 import PlayerStateName from "../enums/PlayerStateName.js";
 import Sprite from "../../lib/Sprite.js";
-import { context, images } from "../globals.js";
-import ImageName from "../enums/ImageName.js";
+import { context } from "../globals.js";
 import PlayerIdlingState from "../states/player/PlayerIdlingState.js";
 import PlayerWalkingState from "../states/player/PlayerWalkingState.js";
 import Direction from "../enums/Direction.js";
-import meta from '../../assets/images/sunnyside_world_chatacter_anim_human_v1.0.json' with { type: "json" };
+import meta from '../../assets/sprites_config/sunnyside_world_chatacter_anim_human_v1.0.json' with { type: "json" };
 import Tile from "../services/Tile.js";
 
 export default class Player extends GameEntity {
@@ -23,19 +22,15 @@ export default class Player extends GameEntity {
 
         this.map = map;
         this.dimensions = new Vector(GameEntity.WIDTH, GameEntity.HEIGHT);
-        this.stateMachine = this.initializeStateMachine();
 
-        const {animations, frames} = Sprite.generateAnimationsFromMeta(meta, 'player');
+        const { animations, frames } = Sprite.generateAnimationsFromMeta(meta, 'player');
         this.animations = animations;
         this.sprites = frames;
 
-        // Set the default animation frames for walking
-        this.currentAnimation = this.animations["walk-s"];
+        this.stateMachine = this.initializeStateMachine();
 
         // by default shouldFlip is false and the player faces right, used for sprite rendering
         this.shouldFlip = false;
-        this.horizontalDirection = Direction.Right;
-        this.sprites = this.walkingSprites;
 
         this.score = 0;
         this.totalScore = 0;
@@ -48,32 +43,44 @@ export default class Player extends GameEntity {
 
     update(dt) {
         super.update(dt);
-        this.shouldFlip = this.horizontalDirection !== Direction.Right;
+        this.shouldFlip = this.direction !== Direction.Right;
     }
 
     render() {
-        const frame = this.currentAnimation.getCurrentFrame(); 
-        const sprite = this.sprites[frame]; 
-    
-        const offsetX = sprite.width / 2; 
-        const offsetY = sprite.height / 2; 
-    
-        let x = Math.floor(this.canvasPosition.x - offsetX + Tile.SIZE / 2);
-        let y = Math.floor(this.canvasPosition.y - offsetY + Tile.SIZE / 2);
-    
+        const frame = this.currentAnimation?.getCurrentFrame();
+        const sprite = this.sprites[frame];
+
+        const offsetX = sprite.width / 2;
+        const offsetY = sprite.height / 2;
+
+        let x = Math.floor(this.canvasPosition.x - offsetX);
+        let y = Math.floor(this.canvasPosition.y - offsetY - GameEntity.HEIGHT / 3);
+        // decreasing the value of y to slightly elevate the character such that
+        // its bottom isn't strictly attached to bottom of the tile
+
         context.save();
 
+        // If the player is facing right
         if (this.shouldFlip) {
-            context.translate(x + sprite.width, y); // move the origin to where the sprite should flip..
-            context.scale(-1, 1); 
-            sprite.render(0, 0); 
+            // Display the mirrored version of player
+
+            /*
+                coordinates before translation: (x, y)
+                coordinates after translation: (-x, y)
+                to display the character at the correct location (x, y), the canvas needs to be translated
+            */
+
+            context.translate(x + sprite.width, y);
+            // Flip the canvas (horizontal)
+            context.scale(-1, 1);
+            sprite.render(0, 0);
         } else {
-            sprite.render(x, y); 
+            sprite.render(x, y);
         }
-    
+
         context.restore();
     }
-    
+
 
     initializeStateMachine() {
         const stateMachine = new StateMachine();

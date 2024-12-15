@@ -1,0 +1,2529 @@
+{ "frames": {
+   "sunnyside_world_chatacter_anim_human_v1.0 0.aseprite": {
+    "frame": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 1.aseprite": {
+    "frame": { "x": 192, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 2.aseprite": {
+    "frame": { "x": 384, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 3.aseprite": {
+    "frame": { "x": 576, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 4.aseprite": {
+    "frame": { "x": 768, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 5.aseprite": {
+    "frame": { "x": 960, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 6.aseprite": {
+    "frame": { "x": 1152, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 7.aseprite": {
+    "frame": { "x": 1344, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 8.aseprite": {
+    "frame": { "x": 1536, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 9.aseprite": {
+    "frame": { "x": 1728, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 10.aseprite": {
+    "frame": { "x": 1920, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 11.aseprite": {
+    "frame": { "x": 2112, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 12.aseprite": {
+    "frame": { "x": 2304, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 13.aseprite": {
+    "frame": { "x": 2496, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 14.aseprite": {
+    "frame": { "x": 2688, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 15.aseprite": {
+    "frame": { "x": 2880, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 16.aseprite": {
+    "frame": { "x": 3072, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 17.aseprite": {
+    "frame": { "x": 3264, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 18.aseprite": {
+    "frame": { "x": 3456, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 19.aseprite": {
+    "frame": { "x": 3648, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 20.aseprite": {
+    "frame": { "x": 3840, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 21.aseprite": {
+    "frame": { "x": 4032, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 22.aseprite": {
+    "frame": { "x": 4224, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 23.aseprite": {
+    "frame": { "x": 4416, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 24.aseprite": {
+    "frame": { "x": 4608, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 25.aseprite": {
+    "frame": { "x": 4800, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 26.aseprite": {
+    "frame": { "x": 4992, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 27.aseprite": {
+    "frame": { "x": 5184, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 28.aseprite": {
+    "frame": { "x": 5376, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 29.aseprite": {
+    "frame": { "x": 5568, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 30.aseprite": {
+    "frame": { "x": 5760, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 31.aseprite": {
+    "frame": { "x": 5952, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 32.aseprite": {
+    "frame": { "x": 6144, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 33.aseprite": {
+    "frame": { "x": 6336, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 34.aseprite": {
+    "frame": { "x": 6528, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 35.aseprite": {
+    "frame": { "x": 6720, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 36.aseprite": {
+    "frame": { "x": 6912, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 37.aseprite": {
+    "frame": { "x": 7104, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 38.aseprite": {
+    "frame": { "x": 7296, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 39.aseprite": {
+    "frame": { "x": 7488, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 40.aseprite": {
+    "frame": { "x": 7680, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 41.aseprite": {
+    "frame": { "x": 7872, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 42.aseprite": {
+    "frame": { "x": 8064, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 43.aseprite": {
+    "frame": { "x": 8256, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 44.aseprite": {
+    "frame": { "x": 8448, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 45.aseprite": {
+    "frame": { "x": 8640, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 46.aseprite": {
+    "frame": { "x": 8832, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 47.aseprite": {
+    "frame": { "x": 9024, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 48.aseprite": {
+    "frame": { "x": 9216, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 49.aseprite": {
+    "frame": { "x": 9408, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 50.aseprite": {
+    "frame": { "x": 9600, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 51.aseprite": {
+    "frame": { "x": 9792, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 52.aseprite": {
+    "frame": { "x": 9984, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 53.aseprite": {
+    "frame": { "x": 10176, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 54.aseprite": {
+    "frame": { "x": 10368, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 55.aseprite": {
+    "frame": { "x": 10560, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 56.aseprite": {
+    "frame": { "x": 10752, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 57.aseprite": {
+    "frame": { "x": 10944, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 58.aseprite": {
+    "frame": { "x": 11136, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 59.aseprite": {
+    "frame": { "x": 11328, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 60.aseprite": {
+    "frame": { "x": 11520, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 61.aseprite": {
+    "frame": { "x": 11712, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 62.aseprite": {
+    "frame": { "x": 11904, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 63.aseprite": {
+    "frame": { "x": 12096, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 64.aseprite": {
+    "frame": { "x": 12288, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 65.aseprite": {
+    "frame": { "x": 12480, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 66.aseprite": {
+    "frame": { "x": 12672, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 67.aseprite": {
+    "frame": { "x": 12864, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 68.aseprite": {
+    "frame": { "x": 13056, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 69.aseprite": {
+    "frame": { "x": 13248, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 70.aseprite": {
+    "frame": { "x": 13440, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 71.aseprite": {
+    "frame": { "x": 13632, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 72.aseprite": {
+    "frame": { "x": 13824, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 73.aseprite": {
+    "frame": { "x": 14016, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 74.aseprite": {
+    "frame": { "x": 14208, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 75.aseprite": {
+    "frame": { "x": 14400, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 76.aseprite": {
+    "frame": { "x": 14592, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 77.aseprite": {
+    "frame": { "x": 14784, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 78.aseprite": {
+    "frame": { "x": 14976, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 79.aseprite": {
+    "frame": { "x": 15168, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 80.aseprite": {
+    "frame": { "x": 15360, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 81.aseprite": {
+    "frame": { "x": 15552, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 82.aseprite": {
+    "frame": { "x": 15744, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 83.aseprite": {
+    "frame": { "x": 15936, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 84.aseprite": {
+    "frame": { "x": 16128, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 85.aseprite": {
+    "frame": { "x": 16320, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 86.aseprite": {
+    "frame": { "x": 16512, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 87.aseprite": {
+    "frame": { "x": 16704, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 88.aseprite": {
+    "frame": { "x": 16896, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 89.aseprite": {
+    "frame": { "x": 17088, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 90.aseprite": {
+    "frame": { "x": 17280, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 91.aseprite": {
+    "frame": { "x": 17472, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 92.aseprite": {
+    "frame": { "x": 17664, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 93.aseprite": {
+    "frame": { "x": 17856, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 94.aseprite": {
+    "frame": { "x": 18048, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 95.aseprite": {
+    "frame": { "x": 18240, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 96.aseprite": {
+    "frame": { "x": 18432, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 97.aseprite": {
+    "frame": { "x": 18624, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 98.aseprite": {
+    "frame": { "x": 18816, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 99.aseprite": {
+    "frame": { "x": 19008, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 100.aseprite": {
+    "frame": { "x": 19200, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 101.aseprite": {
+    "frame": { "x": 19392, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 102.aseprite": {
+    "frame": { "x": 19584, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 103.aseprite": {
+    "frame": { "x": 19776, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 104.aseprite": {
+    "frame": { "x": 19968, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 105.aseprite": {
+    "frame": { "x": 20160, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 106.aseprite": {
+    "frame": { "x": 20352, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 107.aseprite": {
+    "frame": { "x": 20544, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 108.aseprite": {
+    "frame": { "x": 20736, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 109.aseprite": {
+    "frame": { "x": 20928, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 110.aseprite": {
+    "frame": { "x": 21120, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 111.aseprite": {
+    "frame": { "x": 21312, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 112.aseprite": {
+    "frame": { "x": 21504, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 113.aseprite": {
+    "frame": { "x": 21696, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 114.aseprite": {
+    "frame": { "x": 21888, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 115.aseprite": {
+    "frame": { "x": 22080, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 116.aseprite": {
+    "frame": { "x": 22272, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 117.aseprite": {
+    "frame": { "x": 22464, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 118.aseprite": {
+    "frame": { "x": 22656, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 119.aseprite": {
+    "frame": { "x": 22848, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 120.aseprite": {
+    "frame": { "x": 23040, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 121.aseprite": {
+    "frame": { "x": 23232, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 122.aseprite": {
+    "frame": { "x": 23424, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 123.aseprite": {
+    "frame": { "x": 23616, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 124.aseprite": {
+    "frame": { "x": 23808, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 125.aseprite": {
+    "frame": { "x": 24000, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 126.aseprite": {
+    "frame": { "x": 24192, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 127.aseprite": {
+    "frame": { "x": 24384, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 128.aseprite": {
+    "frame": { "x": 24576, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 129.aseprite": {
+    "frame": { "x": 24768, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 130.aseprite": {
+    "frame": { "x": 24960, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 131.aseprite": {
+    "frame": { "x": 25152, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 132.aseprite": {
+    "frame": { "x": 25344, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 133.aseprite": {
+    "frame": { "x": 25536, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 134.aseprite": {
+    "frame": { "x": 25728, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 135.aseprite": {
+    "frame": { "x": 25920, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 136.aseprite": {
+    "frame": { "x": 26112, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 137.aseprite": {
+    "frame": { "x": 26304, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 138.aseprite": {
+    "frame": { "x": 26496, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 139.aseprite": {
+    "frame": { "x": 26688, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 140.aseprite": {
+    "frame": { "x": 26880, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 141.aseprite": {
+    "frame": { "x": 27072, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 142.aseprite": {
+    "frame": { "x": 27264, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 143.aseprite": {
+    "frame": { "x": 27456, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 144.aseprite": {
+    "frame": { "x": 27648, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 145.aseprite": {
+    "frame": { "x": 27840, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 146.aseprite": {
+    "frame": { "x": 28032, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 147.aseprite": {
+    "frame": { "x": 28224, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 148.aseprite": {
+    "frame": { "x": 28416, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 149.aseprite": {
+    "frame": { "x": 28608, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 150.aseprite": {
+    "frame": { "x": 28800, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 151.aseprite": {
+    "frame": { "x": 28992, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 152.aseprite": {
+    "frame": { "x": 29184, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 153.aseprite": {
+    "frame": { "x": 29376, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 154.aseprite": {
+    "frame": { "x": 29568, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 155.aseprite": {
+    "frame": { "x": 29760, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 156.aseprite": {
+    "frame": { "x": 29952, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 157.aseprite": {
+    "frame": { "x": 30144, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 158.aseprite": {
+    "frame": { "x": 30336, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 159.aseprite": {
+    "frame": { "x": 30528, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 160.aseprite": {
+    "frame": { "x": 30720, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 161.aseprite": {
+    "frame": { "x": 30912, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 162.aseprite": {
+    "frame": { "x": 31104, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 163.aseprite": {
+    "frame": { "x": 31296, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 164.aseprite": {
+    "frame": { "x": 31488, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 165.aseprite": {
+    "frame": { "x": 31680, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 166.aseprite": {
+    "frame": { "x": 31872, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 167.aseprite": {
+    "frame": { "x": 32064, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 168.aseprite": {
+    "frame": { "x": 32256, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 169.aseprite": {
+    "frame": { "x": 32448, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 170.aseprite": {
+    "frame": { "x": 32640, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 171.aseprite": {
+    "frame": { "x": 32832, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 172.aseprite": {
+    "frame": { "x": 33024, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 173.aseprite": {
+    "frame": { "x": 33216, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 174.aseprite": {
+    "frame": { "x": 33408, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 175.aseprite": {
+    "frame": { "x": 33600, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 176.aseprite": {
+    "frame": { "x": 33792, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 177.aseprite": {
+    "frame": { "x": 33984, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 178.aseprite": {
+    "frame": { "x": 34176, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 179.aseprite": {
+    "frame": { "x": 34368, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 180.aseprite": {
+    "frame": { "x": 34560, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 181.aseprite": {
+    "frame": { "x": 34752, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 182.aseprite": {
+    "frame": { "x": 34944, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 183.aseprite": {
+    "frame": { "x": 35136, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 184.aseprite": {
+    "frame": { "x": 35328, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 185.aseprite": {
+    "frame": { "x": 35520, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 186.aseprite": {
+    "frame": { "x": 35712, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 187.aseprite": {
+    "frame": { "x": 35904, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 188.aseprite": {
+    "frame": { "x": 36096, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 189.aseprite": {
+    "frame": { "x": 36288, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 190.aseprite": {
+    "frame": { "x": 36480, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 191.aseprite": {
+    "frame": { "x": 36672, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 192.aseprite": {
+    "frame": { "x": 36864, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 193.aseprite": {
+    "frame": { "x": 37056, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 194.aseprite": {
+    "frame": { "x": 37248, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 195.aseprite": {
+    "frame": { "x": 37440, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 196.aseprite": {
+    "frame": { "x": 37632, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 197.aseprite": {
+    "frame": { "x": 37824, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 198.aseprite": {
+    "frame": { "x": 38016, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 199.aseprite": {
+    "frame": { "x": 38208, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 200.aseprite": {
+    "frame": { "x": 38400, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 201.aseprite": {
+    "frame": { "x": 38592, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 202.aseprite": {
+    "frame": { "x": 38784, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 203.aseprite": {
+    "frame": { "x": 38976, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 204.aseprite": {
+    "frame": { "x": 39168, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 205.aseprite": {
+    "frame": { "x": 39360, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 206.aseprite": {
+    "frame": { "x": 39552, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 207.aseprite": {
+    "frame": { "x": 39744, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 208.aseprite": {
+    "frame": { "x": 39936, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 209.aseprite": {
+    "frame": { "x": 40128, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 210.aseprite": {
+    "frame": { "x": 40320, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 211.aseprite": {
+    "frame": { "x": 40512, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 212.aseprite": {
+    "frame": { "x": 40704, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 213.aseprite": {
+    "frame": { "x": 40896, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 214.aseprite": {
+    "frame": { "x": 41088, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 215.aseprite": {
+    "frame": { "x": 41280, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 216.aseprite": {
+    "frame": { "x": 41472, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 217.aseprite": {
+    "frame": { "x": 41664, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 218.aseprite": {
+    "frame": { "x": 41856, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 219.aseprite": {
+    "frame": { "x": 42048, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 220.aseprite": {
+    "frame": { "x": 42240, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 221.aseprite": {
+    "frame": { "x": 42432, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 222.aseprite": {
+    "frame": { "x": 42624, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 223.aseprite": {
+    "frame": { "x": 42816, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 224.aseprite": {
+    "frame": { "x": 43008, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 225.aseprite": {
+    "frame": { "x": 43200, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 226.aseprite": {
+    "frame": { "x": 43392, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 227.aseprite": {
+    "frame": { "x": 43584, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 228.aseprite": {
+    "frame": { "x": 43776, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 229.aseprite": {
+    "frame": { "x": 43968, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 230.aseprite": {
+    "frame": { "x": 44160, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 231.aseprite": {
+    "frame": { "x": 44352, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 232.aseprite": {
+    "frame": { "x": 44544, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 233.aseprite": {
+    "frame": { "x": 44736, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 234.aseprite": {
+    "frame": { "x": 44928, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 235.aseprite": {
+    "frame": { "x": 45120, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 236.aseprite": {
+    "frame": { "x": 45312, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 237.aseprite": {
+    "frame": { "x": 45504, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 238.aseprite": {
+    "frame": { "x": 45696, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 239.aseprite": {
+    "frame": { "x": 45888, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 240.aseprite": {
+    "frame": { "x": 46080, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 241.aseprite": {
+    "frame": { "x": 46272, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 242.aseprite": {
+    "frame": { "x": 46464, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 243.aseprite": {
+    "frame": { "x": 46656, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 244.aseprite": {
+    "frame": { "x": 46848, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 245.aseprite": {
+    "frame": { "x": 47040, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 246.aseprite": {
+    "frame": { "x": 47232, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 247.aseprite": {
+    "frame": { "x": 47424, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 248.aseprite": {
+    "frame": { "x": 47616, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 249.aseprite": {
+    "frame": { "x": 47808, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 250.aseprite": {
+    "frame": { "x": 48000, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 251.aseprite": {
+    "frame": { "x": 48192, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 252.aseprite": {
+    "frame": { "x": 48384, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 253.aseprite": {
+    "frame": { "x": 48576, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 254.aseprite": {
+    "frame": { "x": 48768, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 255.aseprite": {
+    "frame": { "x": 48960, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 256.aseprite": {
+    "frame": { "x": 49152, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 257.aseprite": {
+    "frame": { "x": 49344, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 258.aseprite": {
+    "frame": { "x": 49536, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 259.aseprite": {
+    "frame": { "x": 49728, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 260.aseprite": {
+    "frame": { "x": 49920, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 261.aseprite": {
+    "frame": { "x": 50112, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 262.aseprite": {
+    "frame": { "x": 50304, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 263.aseprite": {
+    "frame": { "x": 50496, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 264.aseprite": {
+    "frame": { "x": 50688, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 265.aseprite": {
+    "frame": { "x": 50880, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 266.aseprite": {
+    "frame": { "x": 51072, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 267.aseprite": {
+    "frame": { "x": 51264, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 268.aseprite": {
+    "frame": { "x": 51456, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 269.aseprite": {
+    "frame": { "x": 51648, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 270.aseprite": {
+    "frame": { "x": 51840, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 271.aseprite": {
+    "frame": { "x": 52032, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 272.aseprite": {
+    "frame": { "x": 52224, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 273.aseprite": {
+    "frame": { "x": 52416, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 274.aseprite": {
+    "frame": { "x": 52608, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 275.aseprite": {
+    "frame": { "x": 52800, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 276.aseprite": {
+    "frame": { "x": 52992, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 277.aseprite": {
+    "frame": { "x": 53184, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 278.aseprite": {
+    "frame": { "x": 53376, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 279.aseprite": {
+    "frame": { "x": 53568, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 280.aseprite": {
+    "frame": { "x": 53760, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 281.aseprite": {
+    "frame": { "x": 53952, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 282.aseprite": {
+    "frame": { "x": 54144, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 283.aseprite": {
+    "frame": { "x": 54336, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 284.aseprite": {
+    "frame": { "x": 54528, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 285.aseprite": {
+    "frame": { "x": 54720, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 286.aseprite": {
+    "frame": { "x": 54912, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 287.aseprite": {
+    "frame": { "x": 55104, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 288.aseprite": {
+    "frame": { "x": 55296, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 289.aseprite": {
+    "frame": { "x": 55488, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 290.aseprite": {
+    "frame": { "x": 55680, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 291.aseprite": {
+    "frame": { "x": 55872, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 292.aseprite": {
+    "frame": { "x": 56064, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 293.aseprite": {
+    "frame": { "x": 56256, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 294.aseprite": {
+    "frame": { "x": 56448, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 295.aseprite": {
+    "frame": { "x": 56640, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 296.aseprite": {
+    "frame": { "x": 56832, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 297.aseprite": {
+    "frame": { "x": 57024, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 298.aseprite": {
+    "frame": { "x": 57216, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 299.aseprite": {
+    "frame": { "x": 57408, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 300.aseprite": {
+    "frame": { "x": 57600, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 301.aseprite": {
+    "frame": { "x": 57792, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 302.aseprite": {
+    "frame": { "x": 57984, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 303.aseprite": {
+    "frame": { "x": 58176, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 304.aseprite": {
+    "frame": { "x": 58368, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 305.aseprite": {
+    "frame": { "x": 58560, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 306.aseprite": {
+    "frame": { "x": 58752, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 307.aseprite": {
+    "frame": { "x": 58944, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 308.aseprite": {
+    "frame": { "x": 59136, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   },
+   "sunnyside_world_chatacter_anim_human_v1.0 309.aseprite": {
+    "frame": { "x": 59328, "y": 0, "w": 192, "h": 128 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 192, "h": 128 },
+    "sourceSize": { "w": 192, "h": 128 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "https://github.com/LibreSprite/LibreSprite/",
+  "version": "1.1-dev",
+  "format": "I8",
+  "size": { "w": 59520, "h": 128 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "idle-s", "from": 0, "to": 3, "direction": "forward" },
+   { "name": "idle-se", "from": 4, "to": 7, "direction": "forward" },
+   { "name": "idle-nw", "from": 8, "to": 11, "direction": "forward" },
+   { "name": "idle-n", "from": 12, "to": 15, "direction": "forward" },
+   { "name": "axe", "from": 17, "to": 24, "direction": "forward" },
+   { "name": "walk-s", "from": 27, "to": 34, "direction": "forward" },
+   { "name": "walk-se", "from": 35, "to": 42, "direction": "forward" },
+   { "name": "walk-nw", "from": 43, "to": 50, "direction": "forward" },
+   { "name": "walk-n", "from": 51, "to": 58, "direction": "forward" },
+   { "name": "run-s", "from": 60, "to": 67, "direction": "forward" },
+   { "name": "run-se", "from": 68, "to": 75, "direction": "forward" },
+   { "name": "run-nw", "from": 76, "to": 83, "direction": "forward" },
+   { "name": "run-n", "from": 84, "to": 91, "direction": "forward" },
+   { "name": "roll-se", "from": 92, "to": 95, "direction": "forward" },
+   { "name": "walk", "from": 99, "to": 106, "direction": "forward" },
+   { "name": "carry", "from": 107, "to": 114, "direction": "forward" },
+   { "name": "idle", "from": 115, "to": 123, "direction": "forward" },
+   { "name": "watering", "from": 124, "to": 128, "direction": "forward" },
+   { "name": "hurt", "from": 129, "to": 136, "direction": "forward" },
+   { "name": "death", "from": 137, "to": 149, "direction": "forward" },
+   { "name": "doing", "from": 150, "to": 157, "direction": "forward" },
+   { "name": "run", "from": 158, "to": 165, "direction": "forward" },
+   { "name": "jump", "from": 166, "to": 174, "direction": "forward" },
+   { "name": "roll", "from": 175, "to": 184, "direction": "forward" },
+   { "name": "axe", "from": 185, "to": 194, "direction": "forward" },
+   { "name": "mining", "from": 195, "to": 204, "direction": "forward" },
+   { "name": "swimming", "from": 205, "to": 216, "direction": "forward" },
+   { "name": "hammering", "from": 217, "to": 239, "direction": "forward" },
+   { "name": "attack", "from": 240, "to": 249, "direction": "forward" },
+   { "name": "casting", "from": 250, "to": 264, "direction": "forward" },
+   { "name": "waiting", "from": 265, "to": 273, "direction": "forward" },
+   { "name": "reeling", "from": 274, "to": 286, "direction": "forward" },
+   { "name": "caught", "from": 287, "to": 296, "direction": "forward" },
+   { "name": "dig", "from": 297, "to": 309, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Sprite Sheet", "opacity": 255, "blendMode": "normal" }
+  ]
+ }
+}

@@ -1,4 +1,3 @@
-import Animation from '../../../lib/Animation.js';
 import State from '../../../lib/State.js';
 import Player from '../../entities/Player.js';
 import Direction from '../../enums/Direction.js';
@@ -7,6 +6,7 @@ import Input from '../../../lib/Input.js';
 import { input, timer } from '../../globals.js';
 import Tile from '../../services/Tile.js';
 import Easing from '../../../lib/Easing.js';
+import GameEntity from '../../entities/GameEntity.js';
 
 export default class PlayerWalkingState extends State {
     /**
@@ -29,7 +29,7 @@ export default class PlayerWalkingState extends State {
     }
 
     update(dt) {
-        this.player.currentAnimation.update(dt)
+        this.player.currentAnimation?.update(dt);
 
         this.handleMovement();
     }
@@ -54,32 +54,18 @@ export default class PlayerWalkingState extends State {
     }
 
     updateDirection() {
-        if (input.isKeyHeld(Input.KEYS.D) && this.player.horizontalDirection !== Direction.Right) {
-			this.player.horizontalDirection = Direction.Right;
-			input.keysPressed[Input.KEYS.D] = false;
-			return;
-		}
-
-		if (input.isKeyHeld(Input.KEYS.A) && this.player.horizontalDirection !== Direction.Left) {
-			this.player.horizontalDirection = Direction.Left;
-			input.keysPressed[Input.KEYS.A] = false;
-			return;
-		}
-        
         if (input.isKeyHeld(Input.KEYS.S)) {
             this.player.direction = Direction.Down;
             this.player.currentAnimation = this.player.animations["walk-s"];
         } else if (input.isKeyHeld(Input.KEYS.D)) {
             this.player.direction = Direction.Right;
             this.player.currentAnimation = this.player.animations["walk"];
-            this.player.horizontalDirection = Direction.Right;
         } else if (input.isKeyHeld(Input.KEYS.W)) {
             this.player.direction = Direction.Up;
             this.player.currentAnimation = this.player.animations["walk-n"];
         } else if (input.isKeyHeld(Input.KEYS.A)) {
             this.player.direction = Direction.Left;
             this.player.currentAnimation = this.player.animations["walk"];
-            this.player.horizontalDirection = Direction.Left;
         }
     }
 
@@ -117,7 +103,7 @@ export default class PlayerWalkingState extends State {
 
         timer.tween(
             this.player.canvasPosition,
-            { x: x * Tile.SIZE, y: y * Tile.SIZE },
+            { x: x * Tile.SIZE + GameEntity.WIDTH / 2, y: y * Tile.SIZE + GameEntity.HEIGHT / 2 },
             0.25,
             Easing.linear,
             () => {
