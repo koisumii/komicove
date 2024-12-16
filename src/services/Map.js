@@ -30,6 +30,7 @@ export default class Map {
 		this.bottomLayer = new Layer(mapDefinition.layers[Layer.BOTTOM], sprites);
 		this.collisionLayer = new Layer(mapDefinition.layers[Layer.COLLISION], sprites);
 		this.topLayer = new Layer(mapDefinition.layers[Layer.TOP], sprites);
+		this.waterLayer = new Layer(mapDefinition.layers[Layer.WATER], sprites);
 	}
 
 	update(dt) {
@@ -40,6 +41,7 @@ export default class Map {
 		this.bottomLayer.render();
 		this.collisionLayer.render();
 		this.topLayer.render();
+		this.waterLayer.render();
 	
 		if (DEBUG) {
 			Map.renderGrid();

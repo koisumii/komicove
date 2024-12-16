@@ -5,6 +5,7 @@ export default class Layer {
 	static BOTTOM = 1;
 	static COLLISION = 2;
 	static TOP = 3;
+	static WATER = 4;
 
 	/**
 	 * A collection of tiles that comprises

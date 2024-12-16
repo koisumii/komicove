@@ -4,12 +4,16 @@ import Map from "../services/Map.js";
 import GameEntity from "./GameEntity.js";
 import PlayerStateName from "../enums/PlayerStateName.js";
 import Sprite from "../../lib/Sprite.js";
-import { context } from "../globals.js";
+import { context, input } from "../globals.js";
 import PlayerIdlingState from "../states/player/PlayerIdlingState.js";
 import PlayerWalkingState from "../states/player/PlayerWalkingState.js";
 import Direction from "../enums/Direction.js";
 import meta from '../../assets/sprites_config/sunnyside_world_chatacter_anim_human_v1.0.json' with { type: "json" };
 import Tile from "../services/Tile.js";
+import PlayerCastingState from "../states/player/PlayerCastingState.js";
+import Input from "../../lib/Input.js";
+import PlayerFishingIdleState from "../states/player/PlayerFishingIdleState.js";
+import PlayerReelingState from "../states/player/PlayerReelingState.js";
 
 export default class Player extends GameEntity {
     /**
@@ -82,11 +86,32 @@ export default class Player extends GameEntity {
     }
 
 
+    handleCasting() {
+        // play the casting animation only if the player is facing right
+        if (this.direction === Direction.Right && input.isKeyPressed(Input.KEYS.SPACE) && this.isFacingWater()) {
+            this.changeState(PlayerStateName.Casting);
+            return true;
+        }
+        return false;
+    }
+
+    isFacingWater() {
+        const checkX = this.position.x + 1;
+        const checkY = this.position.y;
+
+        const waterTile = this.map.waterLayer.getTile(checkX, checkY);
+
+        return waterTile;
+    }
+    
     initializeStateMachine() {
         const stateMachine = new StateMachine();
 
         stateMachine.add(PlayerStateName.Idling, new PlayerIdlingState(this));
         stateMachine.add(PlayerStateName.Walking, new PlayerWalkingState(this));
+        stateMachine.add(PlayerStateName.Casting, new PlayerCastingState(this));
+        stateMachine.add(PlayerStateName.FishingIdle, new PlayerFishingIdleState(this));
+        stateMachine.add(PlayerStateName.Reeling, new PlayerReelingState(this));
 
         stateMachine.change(PlayerStateName.Idling);
 

@@ -38,6 +38,11 @@ export default class PlayerIdlingState extends State {
 	 * @returns If the player can move. (the player cannot move if horizontal direction is changed)
 	 */
 	update() {
+
+		if(this.player.handleCasting()){
+			return;
+		}
+
 		if (input.isKeyPressed(Input.KEYS.S)) {
 			this.player.direction = Direction.Down;
 			this.player.changeState(PlayerStateName.Walking);
