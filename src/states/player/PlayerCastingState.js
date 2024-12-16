@@ -14,6 +14,7 @@ export default class PlayerCastingState extends State {
 
     enter() {
         this.player.currentAnimation = this.player.animations["casting"];
+        this.player.currentAnimation?.refresh();
         // @ts-ignore
         this.player.currentAnimation.cycles = 1;
     }

@@ -3,7 +3,8 @@ const PlayerStateName = {
 	Walking: 'walking',
 	Casting: 'casting',
 	Waiting: 'waiting',
-	Reeling: 'reeling'
+	Reeling: 'reeling',
+	Carrying: 'carrying'
 };
 
 export default PlayerStateName;

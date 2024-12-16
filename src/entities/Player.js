@@ -14,6 +14,8 @@ import PlayerCastingState from "../states/player/PlayerCastingState.js";
 import Input from "../../lib/Input.js";
 import PlayerFishingIdleState from "../states/player/PlayerFishingIdleState.js";
 import PlayerReelingState from "../states/player/PlayerReelingState.js";
+import PlayerHoldingState from "../states/player/PlayerHoldingState.js";
+import BaseFish from "./BaseFish.js";
 
 export default class Player extends GameEntity {
     /**
@@ -36,6 +38,8 @@ export default class Player extends GameEntity {
         // by default shouldFlip is false and the player faces right, used for sprite rendering
         this.shouldFlip = false;
 
+        /**@type BaseFish? */
+        this.fish = null;
         this.score = 0;
         this.totalScore = 0;
     }
@@ -83,6 +87,10 @@ export default class Player extends GameEntity {
         }
 
         context.restore();
+
+        if(this.fish !== null && this.stateMachine.currentState instanceof PlayerHoldingState){
+            this.fish.render(this.canvasPosition.x, this.canvasPosition.y - 45);
+        }
     }
 
 
@@ -112,6 +120,7 @@ export default class Player extends GameEntity {
         stateMachine.add(PlayerStateName.Casting, new PlayerCastingState(this));
         stateMachine.add(PlayerStateName.FishingIdle, new PlayerFishingIdleState(this));
         stateMachine.add(PlayerStateName.Reeling, new PlayerReelingState(this));
+        stateMachine.add(PlayerStateName.Carrying, new PlayerHoldingState(this));
 
         stateMachine.change(PlayerStateName.Idling);
 

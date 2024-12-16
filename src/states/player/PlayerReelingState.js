@@ -1,5 +1,8 @@
+import Input from '../../../lib/Input.js';
 import State from '../../../lib/State.js';
 import Player from '../../entities/Player.js';
+import PlayerStateName from '../../enums/PlayerStateName.js';
+import { input } from '../../globals.js';
 
 export default class PlayerReelingState extends State {
     /**
@@ -12,5 +15,20 @@ export default class PlayerReelingState extends State {
 
     enter() {
         this.player.currentAnimation = this.player.animations["reeling"];
+    }
+
+    update() {
+
+        if(this.player.fish === null) {
+            throw Error("Fish should not be null in Reeling State.")
+        }
+
+        if(this.player.fish.hp > 0 && input.isKeyPressed(Input.KEYS.SPACE)){
+            this.player.fish.hp--;
+        }
+
+        if(this.player.fish.hp === 0){
+            this.player.changeState(PlayerStateName.Carrying);
+        }
     }
 }

@@ -2,9 +2,8 @@ import State from '../../../lib/State.js';
 import Timer from '../../../lib/Timer.js';
 import Player from '../../entities/Player.js';
 import PlayerStateName from '../../enums/PlayerStateName.js';
-import FishFactory from '../../services/FishFactory.js';
 
-export default class PlayerFishingIdleState extends State {
+export default class PlayerHoldingState extends State {
     /**
      * @param {Player} player
      */
@@ -15,15 +14,15 @@ export default class PlayerFishingIdleState extends State {
     }
 
     enter() {
+        this.player.currentAnimation = this.player.animations["carry"];
         this.timer.clear();
-        this.player.currentAnimation = this.player.animations["waiting"]; 
         this.timer.addTask(() => {
-            this.player.fish = FishFactory.createFish(); 
-            this.player.changeState(PlayerStateName.Reeling);
-        }, 3);
+            this.player.changeState(PlayerStateName.Idling);
+        }, 2);
+        this.player.addScore(this.player.fish?.getScore());
     }
 
-    update(dt) {
+    update(dt){
         this.timer.update(dt);
     }
 }
