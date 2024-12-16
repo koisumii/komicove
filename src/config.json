@@ -20,7 +20,7 @@
 		},
 		{
 			"name": "bitterling",
-			"path": "./assets/images/bitterling.png",
+			"path": "./assets/images/common/bitterling.png",
 			"width": 16,
 			"height": 16
 		}
