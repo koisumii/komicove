@@ -51,7 +51,8 @@ const ImageName = {
     FishSturgeon: 'sturgeon',
     FishWhiteSpottedChar: 'white_spotted_char',
 
-    KeyPrompts: 'key_prompts'
+    KeyPrompts: 'key_prompts',
+    FishingRod: 'fishing_rod'
 };
 
 export default ImageName;
