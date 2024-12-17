@@ -8,4 +8,8 @@ export default class CommonFish extends BaseFish {
     getScore() {
         return 5;
     }
+
+    getWaitTime(){
+        return 3;
+    }
 }

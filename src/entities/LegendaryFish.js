@@ -8,4 +8,8 @@ export default class LegendaryFish extends BaseFish {
     getScore() {
         return 25;
     }
+
+    getWaitTime(){
+        return 8;
+    }
 }

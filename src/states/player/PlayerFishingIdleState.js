@@ -17,10 +17,12 @@ export default class PlayerFishingIdleState extends State {
     enter() {
         this.timer.clear();
         this.player.currentAnimation = this.player.animations["waiting"]; 
+        const fish = FishFactory.createFish();
+        let waitTime = fish.getWaitTime();
         this.timer.addTask(() => {
-            this.player.fish = FishFactory.createFish(); 
+            this.player.fish =  fish;
             this.player.changeState(PlayerStateName.Reeling);
-        }, 3);
+        }, waitTime);
     }
 
     update(dt) {

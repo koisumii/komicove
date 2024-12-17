@@ -8,4 +8,8 @@ export default class RareFish extends BaseFish {
     getScore() {
         return 10;
     }
+
+    getWaitTime(){
+        return 5;
+    }
 }

@@ -24,4 +24,11 @@ export default class BaseFish {
     /**@abstract */
     getScore(){
     }
+
+    /**@abstract 
+     * @return {number}
+    */
+    getWaitTime(){
+        throw new Error("getWaitTime() must be implemented in derived classes.")
+    }
 }
