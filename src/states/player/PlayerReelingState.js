@@ -17,6 +17,10 @@ export default class PlayerReelingState extends State {
     enter() {
         this.player.currentAnimation = this.player.animations["reeling"];
 
+        if(this.player.fish){
+            PlayState.instance.userInterface.showFishingBar(this.player.fish.hp);
+        }
+
         PlayState.instance.userInterface.showKeyPrompt();
     }
 
@@ -28,11 +32,13 @@ export default class PlayerReelingState extends State {
 
         if(this.player.fish.hp > 0 && input.isKeyPressed(Input.KEYS.SPACE)){
             this.player.fish.hp--;
+            PlayState.instance.userInterface.updateFishingBar(this.player.fish.hp)
         }
 
         if(this.player.fish.hp === 0){
             this.player.changeState(PlayerStateName.Carrying);
             PlayState.instance.userInterface.hideKeyPrompt();
+            PlayState.instance.userInterface.hideFishingBar();
         }
     }
 }

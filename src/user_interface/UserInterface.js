@@ -30,6 +30,10 @@ export default class UserInterface {
 
         /** @type {ProgressBanner?} */
         this.progressBanner = null;
+
+        this.fishingBar = null;
+        this.fishingBarMax = 0;
+        this.fishingBarCurrent = 0;
     }
 
     showKeyPrompt() {
@@ -38,6 +42,20 @@ export default class UserInterface {
 
     hideKeyPrompt() {
         this.keyPrompt.isVisible = false;
+    }
+
+    showFishingBar(maxValue) {
+        this.fishingBar = true;
+        this.fishingBarMax = maxValue;
+        this.fishingBarCurrent = maxValue;
+    }
+
+    updateFishingBar(value) {
+        this.fishingBarCurrent = value;
+    }
+
+    hideFishingBar() {
+        this.fishingBar = null;
     }
 
     update(dt) {
@@ -50,6 +68,32 @@ export default class UserInterface {
     render() {
         this.keyPrompt.render();
         context.save();
+
+        if (this.fishingBar){
+            const barWidth = 20;
+            const barHeight = 200;
+
+            // vertical and positioned to the right of the water
+            const x = CANVAS_WIDTH - 60; 
+            const y = CANVAS_HEIGHT / 2 - barHeight / 2; 
+            
+            const progressRatio = this.fishingBarCurrent / this.fishingBarMax;
+
+            context.fillStyle = '#E8B796';
+            context.fillRect(x, y, barWidth, barHeight);
+
+            context.fillStyle = '#7BCF5C';
+            // shrinks from top to the bottom
+            context.fillRect(
+                x,
+                y + barHeight * (1 - progressRatio), 
+                barWidth,
+                barHeight * progressRatio
+            );
+
+            context.strokeStyle = '#733E39';
+            context.strokeRect(x, y, barWidth, barHeight);
+        }
 
         context.font = UserInterface.FONT;
         context.fillStyle = 'white';
