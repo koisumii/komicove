@@ -56,7 +56,7 @@ export default class PlayState extends State {
 	}
 
 	calculateScoreThreshold(day) {
-		return day * 10;
+		return day * 100;
 	}
 
 	update(dt) {
