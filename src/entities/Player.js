@@ -9,13 +9,15 @@ import PlayerIdlingState from "../states/player/PlayerIdlingState.js";
 import PlayerWalkingState from "../states/player/PlayerWalkingState.js";
 import Direction from "../enums/Direction.js";
 import meta from '../../assets/sprites_config/sunnyside_world_chatacter_anim_human_v1.0.json' with { type: "json" };
-import Tile from "../services/Tile.js";
 import PlayerCastingState from "../states/player/PlayerCastingState.js";
 import Input from "../../lib/Input.js";
 import PlayerFishingIdleState from "../states/player/PlayerFishingIdleState.js";
 import PlayerReelingState from "../states/player/PlayerReelingState.js";
 import PlayerHoldingState from "../states/player/PlayerHoldingState.js";
 import BaseFish from "./BaseFish.js";
+import ScorePopup from "../user_interface/ScorePopup.js";
+import { getRandomNumber } from "../../lib/Random.js";
+import UserInterface from "../user_interface/UserInterface.js";
 
 export default class Player extends GameEntity {
     /**
@@ -42,16 +44,32 @@ export default class Player extends GameEntity {
         this.fish = null;
         this.score = 0;
         this.totalScore = 0;
+
+        /** @type {ScorePopup[]} */
+        this.scorePopups = [];
     }
 
     addScore(amount) {
         this.score += amount;
         this.totalScore += amount;
+        this.scorePopups.push(
+            new ScorePopup(
+                new Vector(
+                    this.canvasPosition.x + getRandomNumber(-40, 40),
+                    this.canvasPosition.y + getRandomNumber(-40, 40)
+                ),
+                amount,
+                -40,
+                1.5,
+                UserInterface.FONT
+            )
+        );
     }
 
     update(dt) {
         super.update(dt);
         this.shouldFlip = this.direction !== Direction.Right;
+        this.scorePopups = this.scorePopups.filter(scorePopup => !scorePopup.isDone);
     }
 
     render() {
@@ -88,9 +106,11 @@ export default class Player extends GameEntity {
 
         context.restore();
 
-        if(this.fish !== null && this.stateMachine.currentState instanceof PlayerHoldingState){
+        if (this.fish !== null && this.stateMachine.currentState instanceof PlayerHoldingState) {
             this.fish.render(this.canvasPosition.x, this.canvasPosition.y - 45);
         }
+
+        this.scorePopups.forEach(popup => popup.render());
     }
 
 
@@ -111,7 +131,7 @@ export default class Player extends GameEntity {
 
         return waterTile;
     }
-    
+
     initializeStateMachine() {
         const stateMachine = new StateMachine();
 

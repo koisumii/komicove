@@ -5,7 +5,7 @@ import Map from "../../services/Map.js";
 import Player from "../../entities/Player.js";
 import GameEntity from "../../entities/GameEntity.js";
 import Day from "../../services/Day.js";
-import UserInterface from "../../services/UserInterface.js";
+import UserInterface from "../../user_interface/UserInterface.js";
 import GameStateName from "../../enums/GameStateName.js";
 import { TransitionType } from "./TransitionState.js";
 import Input from "../../../lib/Input.js";
