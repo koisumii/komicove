@@ -331,9 +331,33 @@
 			"volume": 0.1
 		},
 		{
+			"name": "splash",
+			"path": "./assets/sounds/splash.mp3",
+			"size": 1,
+			"volume": 0.2
+		},
+		{
 			"name": "grass-walk",
 			"path": "./assets/sounds/grass_walk.mp3",
 			"size": 16,
+			"volume": 0.2
+		},
+		{
+			"name": "progression",
+			"path": "./assets/sounds/progression.mp3",
+			"size": 1,
+			"volume": 0.5
+		},
+		{
+			"name": "score",
+			"path": "./assets/sounds/score.mp3",
+			"size": 1,
+			"volume": 0.1
+		},
+		{
+			"name": "checkmark",
+			"path": "./assets/sounds/checkmark.mp3",
+			"size": 1,
 			"volume": 0.2
 		},
 		{

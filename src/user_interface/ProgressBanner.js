@@ -1,8 +1,9 @@
-import { CANVAS_HEIGHT, context, timer } from "../globals.js";
+import { CANVAS_HEIGHT, context, sounds, timer } from "../globals.js";
 import Sprite from "../../lib/Sprite.js";
 import Vector from "../../lib/Vector.js";
 import Easing from "../../lib/Easing.js";
 import Colour from "../enums/Colour.js";
+import SoundName from "../enums/SoundName.js";
 
 export default class ProgressBanner {
     static DURATION = 5; // The time duration for which the banner will remain on screen statically
@@ -51,6 +52,7 @@ export default class ProgressBanner {
         else
             this.iconOffset.y += imageTextHeightDifference;
 
+        sounds.play(SoundName.Progression);
         this.fadeInAndOut();
     }
 
@@ -97,7 +99,7 @@ export default class ProgressBanner {
         context.roundRect(0, 0, this.width, this.height, ProgressBanner.RADIUS);
         context.stroke();
         context.fill();
-        
+
         this.icon.render(this.iconOffset.x, this.iconOffset.y);
         context.font = this.textStyle;
         context.fillStyle = Colour.White;

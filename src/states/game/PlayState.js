@@ -45,13 +45,18 @@ export default class PlayState extends State {
 		this.day = params.day;
 		this.player = params.player;
 
+		this.scoreThresholdReached = false;
+
+		if (this.player !== null)
+			this.scoreThresholdReached = this.player?.score >= this.scoreThreshold;
+
 		this.entities = [params.player];
 		this.scoreThreshold = this.calculateScoreThreshold(this.day?.count);
 		sounds.play(SoundName.AtTheEndOfAllThings);
 	}
 
 	calculateScoreThreshold(day) {
-		return day * 100;
+		return day * 10;
 	}
 
 	update(dt) {
@@ -63,12 +68,19 @@ export default class PlayState extends State {
 
 		this.day?.update(dt);
 
+		if (!this.scoreThresholdReached && this.player !== null) {
+			if (this.player.score >= this.scoreThreshold) {
+				this.scoreThresholdReached = true;
+				sounds.play(SoundName.Checkmark);
+			}
+		}
+
 		// If current day ended
 		if (this.day?.shouldProgress) {
 			sounds.stop(SoundName.AtTheEndOfAllThings);
 
 			// If the score threshold isn't reached
-			if (this.player !== null && this.player.score < this.scoreThreshold) {
+			if (!this.scoreThresholdReached && this.player !== null) {
 				// Game Over
 				stateMachine.change(GameStateName.Transition, {
 					source: stateMachine.currentState,

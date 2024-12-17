@@ -305,6 +305,8 @@ All sounds effects are taken from [pixabay.com](https://pixabay.com) and [freeso
 -   [Long, Medium Swish](https://pixabay.com/sound-effects/long-medium-swish-44324/)
 -   [Item Pickup](https://pixabay.com/sound-effects/item-pickup-37089/)
 -   [Walking on grass 1](https://freesound.org/people/Coolshows101sound/sounds/640485/)
+-   [90s Game UI 3](https://pixabay.com/sound-effects/90s-game-ui-3-185096/)
+-   [90s Game UI 6](https://pixabay.com/sound-effects/90s-game-ui-6-185099/)
 
 The soundtrack is taken from [www.chosic.com](https://www.chosic.com/).
 

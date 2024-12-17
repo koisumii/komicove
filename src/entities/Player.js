@@ -4,7 +4,7 @@ import Map from "../services/Map.js";
 import GameEntity from "./GameEntity.js";
 import PlayerStateName from "../enums/PlayerStateName.js";
 import Sprite from "../../lib/Sprite.js";
-import { context, input } from "../globals.js";
+import { context, input, sounds } from "../globals.js";
 import PlayerIdlingState from "../states/player/PlayerIdlingState.js";
 import PlayerWalkingState from "../states/player/PlayerWalkingState.js";
 import Direction from "../enums/Direction.js";
@@ -18,6 +18,7 @@ import BaseFish from "./BaseFish.js";
 import ScorePopup from "../user_interface/ScorePopup.js";
 import { getRandomNumber } from "../../lib/Random.js";
 import UserInterface from "../user_interface/UserInterface.js";
+import SoundName from "../enums/SoundName.js";
 
 export default class Player extends GameEntity {
     /**
@@ -64,6 +65,7 @@ export default class Player extends GameEntity {
                 UserInterface.FONT
             )
         );
+        sounds.play(SoundName.Score);
     }
 
     update(dt) {
