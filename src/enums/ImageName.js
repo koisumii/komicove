@@ -10,7 +10,7 @@ const ImageName = {
     FishCrucianCarp: 'crucian_carp',
     FishFlounder: 'flounder',
     FishGoldfish: 'goldfish',
-    FishKillfish: 'killfish',
+    FishKillifish: 'killifish',
     FishLoach: 'loach',
     FishMinnow: 'minnow',
     FishRicefish: 'ricefish',
