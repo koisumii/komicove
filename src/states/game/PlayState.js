@@ -3,12 +3,12 @@ import SoundName from "../../enums/SoundName.js";
 import { debug, sounds, stateMachine } from "../../globals.js";
 import Map from "../../services/Map.js";
 import Player from "../../entities/Player.js";
-import Vector from "../../../lib/Vector.js";
 import GameEntity from "../../entities/GameEntity.js";
 import Day from "../../services/Day.js";
 import UserInterface from "../../services/UserInterface.js";
 import GameStateName from "../../enums/GameStateName.js";
 import { TransitionType } from "./TransitionState.js";
+import Input from "../../../lib/Input.js";
 
 export default class PlayState extends State {
 	/**
@@ -29,7 +29,7 @@ export default class PlayState extends State {
 		/** @type {Day?} */
 		this.day = null;
 
-		this.userInterface = new UserInterface(this);
+		this.userInterface = new UserInterface(this, Input.KEYS.SPACE);
 
 		// the amount of score required to proceed to the next day
 		this.scoreThreshold = 0;
@@ -51,6 +51,7 @@ export default class PlayState extends State {
 
 	update(dt) {
 		debug.update();
+		this.userInterface.update(dt);
 		this.map?.update(dt);
 
 		this.entities.forEach((entity) => entity.update(dt));

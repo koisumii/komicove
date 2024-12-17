@@ -1,7 +1,8 @@
 const ImageName = {
     Background: 'background',
     Tiles: 'tiles',
-    FishBitterling: 'bitterling'
+    FishBitterling: 'bitterling',
+    KeyPrompts: 'key_prompts'
 };
 
 export default ImageName;
