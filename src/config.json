@@ -21,272 +21,272 @@
 		{
 			"name": "anchovy",
 			"path": "./assets/images/common/anchovy.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "barbel",
 			"path": "./assets/images/common/barbel.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "bitterling",
 			"path": "./assets/images/common/bitterling.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "carp",
 			"path": "./assets/images/common/carp.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "catfish",
 			"path": "./assets/images/common/catfish.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "crucian_carp",
 			"path": "./assets/images/common/crucian_carp.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "flounder",
 			"path": "./assets/images/common/flounder.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "goldfish",
 			"path": "./assets/images/common/goldfish.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "killifish",
 			"path": "./assets/images/common/killifish.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "loach",
 			"path": "./assets/images/common/loach.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "minnow",
 			"path": "./assets/images/common/minnow.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "ricefish",
 			"path": "./assets/images/common/ricefish.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "smallmouth_bass",
 			"path": "./assets/images/common/smallmouth_bass.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "smelt",
 			"path": "./assets/images/common/smelt.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "stickleback",
 			"path": "./assets/images/common/stickleback.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "struped_shiner",
 			"path": "./assets/images/common/struped_shiner.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "sweetfish",
 			"path": "./assets/images/common/sweetfish.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "tadpole",
 			"path": "./assets/images/common/tadpole.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "tuna",
 			"path": "./assets/images/common/tuna.png",
-			"width": 32,
-			"height": 16
+			"width": 64,
+			"height": 32
 		},
 		{
 			"name": "arapaima",
 			"path": "./assets/images/rare/arapaima.png",
-			"width": 32,
-			"height": 16
+			"width": 64,
+			"height": 32
 		},
 		{
 			"name": "clownfish",
 			"path": "./assets/images/rare/clownfish.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "crayfish",
 			"path": "./assets/images/rare/crayfish.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "dorado",
 			"path": "./assets/images/rare/dorado.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "giant_trevally",
 			"path": "./assets/images/rare/giant_trevally.png",
-			"width": 32,
-			"height": 16
+			"width": 64,
+			"height": 32
 		},
 		{
 			"name": "goby",
 			"path": "./assets/images/rare/goby.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "guppy",
 			"path": "./assets/images/rare/guppy.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "koi",
 			"path": "./assets/images/rare/koi.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "moonfish",
 			"path": "./assets/images/rare/moonfish.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "moray_eel",
 			"path": "./assets/images/rare/moray_eel.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "neotropical_silverside",
 			"path": "./assets/images/rare/neotropical_silverside.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "pale_chub",
 			"path": "./assets/images/rare/pale_chub.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "tilapia",
 			"path": "./assets/images/rare/tilapia.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "walleye",
 			"path": "./assets/images/rare/walleye.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "angel_fish",
 			"path": "./assets/images/legendary/angel_fish.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "arowana",
 			"path": "./assets/images/legendary/arowana.png",
-			"width": 32,
-			"height": 16
+			"width": 64,
+			"height": 32
 		},
 		{
 			"name": "betta",
 			"path": "./assets/images/legendary/betta.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "blue_marlin",
 			"path": "./assets/images/legendary/blue_marlin.png",
-			"width": 32,
-			"height": 16
+			"width": 64,
+			"height": 32
 		},
 		{
 			"name": "coelacanth",
 			"path": "./assets/images/legendary/coelacanth.png",
-			"width": 32,
-			"height": 16
+			"width": 64,
+			"height": 32
 		},
 		{
 			"name": "japanese_lates",
 			"path": "./assets/images/legendary/japanese_lates.png",
-			"width": 32,
-			"height": 16
+			"width": 64,
+			"height": 32
 		},
 		{
 			"name": "king_crab",
 			"path": "./assets/images/legendary/king_crab.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "lowland_cichlid",
 			"path": "./assets/images/legendary/lowland_cichlid.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "mahi-mahi",
 			"path": "./assets/images/legendary/mahi-mahi.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "rainbowfish",
 			"path": "./assets/images/legendary/rainbowfish.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "sturgeon",
 			"path": "./assets/images/legendary/sturgeon.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "white_spotted_char",
 			"path": "./assets/images/legendary/white_spotted_char.png",
-			"width": 16,
-			"height": 16
+			"width": 32,
+			"height": 32
 		},
 		{
 			"name": "fishing_rod",
