@@ -287,6 +287,12 @@
 			"path": "./assets/images/legendary/white_spotted_char.png",
 			"width": 16,
 			"height": 16
+		},
+		{
+			"name": "key_prompts",
+			"path": "./assets/images/key_prompts.png",
+			"width": 16,
+			"height": 16
 		}
 	],
 	"fonts": [

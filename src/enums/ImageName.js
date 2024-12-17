@@ -49,7 +49,9 @@ const ImageName = {
     FishMahiMahi: 'mahi-mahi',
     FishRainbowfish: 'rainbowfish',
     FishSturgeon: 'sturgeon',
-    FishWhiteSpottedChar: 'white_spotted_char'
+    FishWhiteSpottedChar: 'white_spotted_char',
+
+    KeyPrompts: 'key_prompts'
 };
 
 export default ImageName;

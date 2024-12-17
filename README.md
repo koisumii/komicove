@@ -282,6 +282,7 @@ The GUI is kept minimalistic, with color palettes that resemble art style of in-
 -   Most images in game (including character, equipment, tile) will be taken from [Sunnyside World](https://danieldiggle.itch.io/sunnyside), a free asset pack available on `itch.io`.
 
 -   Certain fish icons are taken from [Bagatan Tsuri : Let's go Fishing!](https://pixerelia.itch.io/lets-go-fishing) and [Cozy Fishing](https://shubibubi.itch.io/cozy-fishing), asset packs available on `itch.io`.
+-   Keyboard images for input prompt are taken from [Input Prompts Pixel 16×](https://kenney-assets.itch.io/input-prompts-pixel-16), a free asset pack on `itch.io`.
 
 #### ✏️ Fonts
 

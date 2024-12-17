@@ -1,20 +1,41 @@
 import { CANVAS_HEIGHT, CANVAS_WIDTH, context } from "../globals.js";
 import PlayState from "../states/game/PlayState.js";
+import KeyPrompt from "./KeyPrompt.js";
 
 export default class UserInterface {
+    static FONT = '16px Roboto';
 
     /**
-     * Represents display of information in game (e.g. day, time, score).
+     * Represents display of information in game (e.g. day, time, score, key prompt).
      * 
-     * @param {PlayState} playState 
+     * @param {PlayState} playState The play state corresponding to this instance of UserInterface.
+     * @param {string} promptKey A key from Input.KEYS that will be shown in prompt.
      */
-    constructor(playState) {
+    constructor(playState, promptKey) {
         this.playState = playState;
+
+        this.keyPrompt = new KeyPrompt(promptKey, UserInterface.FONT, 0.5);
+
+        this.keyPrompt.position.x = (CANVAS_WIDTH - this.keyPrompt.dimensions.x) / 2;
+        this.keyPrompt.position.y = CANVAS_HEIGHT - this.keyPrompt.dimensions.y - 48;
+    }
+
+    showKeyPrompt() {
+        this.keyPrompt.isVisible = true;
+    }
+
+    hideKeyPrompt() {
+        this.keyPrompt.isVisible = false;
+    }
+
+    update(dt) {
+        this.keyPrompt.update(dt);
     }
 
     render() {
-        context.save();
-        context.font = '16px Roboto';
+        this.keyPrompt.render();
+
+        context.font = UserInterface.FONT;
         context.fillStyle = 'white';
         context.textBaseline = 'top';
         context.textAlign = 'left';
