@@ -1,6 +1,10 @@
-import { CANVAS_HEIGHT, CANVAS_WIDTH, context } from "../globals.js";
+import Input from "../../lib/Input.js";
+import Sprite from "../../lib/Sprite.js";
+import ImageName from "../enums/ImageName.js";
+import { CANVAS_HEIGHT, CANVAS_WIDTH, context, images, input } from "../globals.js";
 import PlayState from "../states/game/PlayState.js";
 import KeyPrompt from "./KeyPrompt.js";
+import ProgressBanner from "./ProgressBanner.js";
 
 export default class UserInterface {
     static FONT = '16px Roboto';
@@ -18,6 +22,14 @@ export default class UserInterface {
 
         this.keyPrompt.position.x = (CANVAS_WIDTH - this.keyPrompt.dimensions.x) / 2;
         this.keyPrompt.position.y = CANVAS_HEIGHT - this.keyPrompt.dimensions.y - 48;
+
+        context.save();
+        context.font = UserInterface.FONT;
+
+        context.restore();
+
+        /** @type {ProgressBanner?} */
+        this.progressBanner = null;
     }
 
     showKeyPrompt() {
@@ -29,11 +41,15 @@ export default class UserInterface {
     }
 
     update(dt) {
+        if (this.progressBanner?.isDone)
+            this.progressBanner = null;
+
         this.keyPrompt.update(dt);
     }
 
     render() {
         this.keyPrompt.render();
+        context.save();
 
         context.font = UserInterface.FONT;
         context.fillStyle = 'white';
@@ -49,5 +65,6 @@ export default class UserInterface {
             20
         );
         context.restore();
+        this.progressBanner?.render();
     }
 }

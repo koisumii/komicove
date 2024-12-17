@@ -289,6 +289,12 @@
 			"height": 16
 		},
 		{
+			"name": "fishing_rod",
+			"path": "./assets/images/fishing_rod.png",
+			"width": 32,
+			"height": 32
+		},
+		{
 			"name": "key_prompts",
 			"path": "./assets/images/key_prompts.png",
 			"width": 16,

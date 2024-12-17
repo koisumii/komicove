@@ -11,7 +11,7 @@ export default class KeyPrompt {
      * @param {string} textStyle The desired text style for prompt rendering, CanvasRenderingContext2D::font.
      * @param {string} prefixText The text to display before the key iamge.
      */
-    constructor(key, textStyle, animationInterval = 0.25, prefixText = 'Press   ') {
+    constructor(key, textStyle, animationInterval = 0.25, prefixText = 'Press ') {
         this.isVisible = false;
 
         const { animation, sprites } = KeyPromptHelper.getAnimation(key, animationInterval);
@@ -53,7 +53,7 @@ export default class KeyPrompt {
         const spriteOffsetY = currentFrame === 1 ? 2 : 0;
 
         this.sprites[currentFrame]
-            .render(this.position.x + this.textWidth, this.position.y + spriteOffsetY);
+            .render(this.position.x + this.textWidth + 20, this.position.y + spriteOffsetY);
         context.restore();
     }
 }
