@@ -3,10 +3,11 @@ import Player from '../../entities/Player.js';
 import Direction from '../../enums/Direction.js';
 import PlayerStateName from '../../enums/PlayerStateName.js';
 import Input from '../../../lib/Input.js';
-import { input, timer } from '../../globals.js';
+import { input, sounds, timer } from '../../globals.js';
 import Tile from '../../services/Tile.js';
 import Easing from '../../../lib/Easing.js';
 import GameEntity from '../../entities/GameEntity.js';
+import SoundName from '../../enums/SoundName.js';
 
 export default class PlayerWalkingState extends State {
     /**
@@ -91,6 +92,8 @@ export default class PlayerWalkingState extends State {
         if (!this.isValidMove(x, y)) {
             return;
         }
+
+        sounds.play(SoundName.GrassWalk);
 
         this.player.position.x = x;
         this.player.position.y = y;

@@ -302,6 +302,9 @@ All sounds effects are taken from [pixabay.com](https://pixabay.com) and [freeso
 -   [Cymbal Reverse](https://pixabay.com/sound-effects/reverse-cymbal-sound-effect-239951/)
 -   [Fishing Rod Winding](https://freesound.org/people/esperri/sounds/118973/)
 -   [Fishing Rod Reeling](https://freesound.org/people/j1987/sounds/95564/)
+-   [Long, Medium Swish](https://pixabay.com/sound-effects/long-medium-swish-44324/)
+-   [Item Pickup](https://pixabay.com/sound-effects/item-pickup-37089/)
+-   [Walking on grass 1](https://freesound.org/people/Coolshows101sound/sounds/640485/)
 
 The soundtrack is taken from [www.chosic.com](https://www.chosic.com/).
 

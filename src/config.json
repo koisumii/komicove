@@ -319,6 +319,24 @@
 			"volume": 0.2
 		},
 		{
+			"name": "swish",
+			"path": "./assets/sounds/swish.mp3",
+			"size": 1,
+			"volume": 0.3
+		},
+		{
+			"name": "item-equip",
+			"path": "./assets/sounds/item_equip.mp3",
+			"size": 1,
+			"volume": 0.1
+		},
+		{
+			"name": "grass-walk",
+			"path": "./assets/sounds/grass_walk.mp3",
+			"size": 16,
+			"volume": 0.2
+		},
+		{
 			"name": "at-the-end-of-all-things",
 			"path": "./assets/sounds/at_the_end_of_all_things.mp3",
 			"size": 1,

@@ -1,6 +1,8 @@
 import State from '../../../lib/State.js';
 import Player from '../../entities/Player.js';
 import PlayerStateName from '../../enums/PlayerStateName.js';
+import SoundName from '../../enums/SoundName.js';
+import { sounds } from '../../globals.js';
 
 
 export default class PlayerCastingState extends State {
@@ -17,6 +19,9 @@ export default class PlayerCastingState extends State {
         this.player.currentAnimation?.refresh();
         // @ts-ignore
         this.player.currentAnimation.cycles = 1;
+
+        sounds.play(SoundName.Swish);
+        sounds.play(SoundName.ItemEquip);
     }
 
     update() {

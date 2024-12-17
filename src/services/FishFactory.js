@@ -13,7 +13,7 @@ export default class FishFactory {
         ImageName.FishCrucianCarp,
         ImageName.FishFlounder,
         ImageName.FishGoldfish,
-        ImageName.FishKillfish,
+        ImageName.FishKillifish,
         ImageName.FishLoach,
         ImageName.FishMinnow,
         ImageName.FishRicefish,
