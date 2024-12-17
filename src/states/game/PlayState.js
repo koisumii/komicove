@@ -12,11 +12,16 @@ import Input from "../../../lib/Input.js";
 
 export default class PlayState extends State {
 	/**
+	 * @type {PlayState}
+	 */
+	static instance;
+	/**
 	 * The state where actual gameplay (player walking around & fishing) takes place.
 	 */
 	constructor() {
 		super();
 
+		PlayState.instance = this;
 		/** @type {Map?} */
 		this.map = null;
 

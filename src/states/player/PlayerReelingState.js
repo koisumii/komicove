@@ -3,6 +3,7 @@ import State from '../../../lib/State.js';
 import Player from '../../entities/Player.js';
 import PlayerStateName from '../../enums/PlayerStateName.js';
 import { input } from '../../globals.js';
+import PlayState from '../game/PlayState.js';
 
 export default class PlayerReelingState extends State {
     /**
@@ -15,6 +16,8 @@ export default class PlayerReelingState extends State {
 
     enter() {
         this.player.currentAnimation = this.player.animations["reeling"];
+
+        PlayState.instance.userInterface.showKeyPrompt();
     }
 
     update() {
@@ -29,6 +32,7 @@ export default class PlayerReelingState extends State {
 
         if(this.player.fish.hp === 0){
             this.player.changeState(PlayerStateName.Carrying);
+            PlayState.instance.userInterface.hideKeyPrompt();
         }
     }
 }
