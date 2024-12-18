@@ -81,7 +81,7 @@ export default class Player extends GameEntity {
         );
         sounds.play(SoundName.Score);
 
-        if (this.score >= this.nextFishingRodScoreThreshold) {
+        if (this.totalScore >= this.nextFishingRodScoreThreshold) {
             this.fishingRod = FishingRodFactory.createInstance((this.fishingRod?.tier ?? 0) + 1);
 
             if (this.fishingRod !== null) {
@@ -187,7 +187,7 @@ export default class Player extends GameEntity {
         if (fishingRod.tier >= FishingRodFactory.MAX_TIER)
             return Infinity;
 
-        return (fishingRod.tier + 1) * 200;
+        return (fishingRod.tier + 1) * 50;
     }
 
     static getFishingRod() {

@@ -4,6 +4,6 @@ import Colour from "../enums/Colour.js";
 
 export default class SpinningRod extends FishingRod {
     constructor() {
-        super('spinning rod', 1.5, ImageName.SpinningRod, Colour.LightGreen, 1);
+        super('spinning rod', 1.1, ImageName.SpinningRod, Colour.DeepSkyBlue, 2);
     }
 }

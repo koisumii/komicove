@@ -4,6 +4,6 @@ import Colour from "../enums/Colour.js";
 
 export default class TelescopicRod extends FishingRod {
     constructor() {
-        super('telescopic rod', 1, ImageName.TelescopicRod, Colour.LightGrey, 0);
+        super('telescopic rod', 1.15, ImageName.TelescopicRod, Colour.DarkViolet, 3);
     }
 }

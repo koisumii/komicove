@@ -1,6 +1,7 @@
 export default class Day {
     /** Determines how fast time progresses. If the value is 1, 1 real second is 1 in-game second. */
-    static SPEED_FACTOR = 240;
+    // static SPEED_FACTOR = 240;
+    static SPEED_FACTOR = 480;
     static HOURS_IN_DAY = 24;
     static MINUTES_IN_HOUR = 60;
     static SECONDS_IN_MINUTE = 60;
