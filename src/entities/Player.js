@@ -187,7 +187,7 @@ export default class Player extends GameEntity {
         if (fishingRod.tier >= FishingRodFactory.MAX_TIER)
             return Infinity;
 
-        return fishingRod.tier * 10 + 10;
+        return (fishingRod.tier + 1) * 200;
     }
 
     static getFishingRod() {
