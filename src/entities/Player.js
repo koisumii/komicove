@@ -94,7 +94,6 @@ export default class Player extends GameEntity {
                     "New Fishing Rod Acquired",
                     UserInterface.FONT
                 )
-                console.log(this.fishingRod.name);
             }
         }
     }
@@ -188,7 +187,7 @@ export default class Player extends GameEntity {
         if (fishingRod.tier >= FishingRodFactory.MAX_TIER)
             return Infinity;
 
-        return fishingRod.tier * 200;
+        return fishingRod.tier * 10 + 10;
     }
 
     static getFishingRod() {
