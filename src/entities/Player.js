@@ -170,7 +170,7 @@ export default class Player extends GameEntity {
         stateMachine.add(PlayerStateName.Idling, new PlayerIdlingState(this));
         stateMachine.add(PlayerStateName.Walking, new PlayerWalkingState(this));
         stateMachine.add(PlayerStateName.Casting, new PlayerCastingState(this));
-        stateMachine.add(PlayerStateName.FishingIdle, new PlayerFishingIdleState(this));
+        stateMachine.add(PlayerStateName.Waiting, new PlayerFishingIdleState(this));
         stateMachine.add(PlayerStateName.Reeling, new PlayerReelingState(this));
         stateMachine.add(PlayerStateName.Carrying, new PlayerHoldingState(this));
 
