@@ -3,7 +3,8 @@ const GameStateName = {
 	Play: 'play',
 	Victory: 'victory',
 	TitleScreen: 'title-screen',
-	Transition: 'transition'
+	Transition: 'transition',
+	Menu: 'menu'
 };
 
 export default GameStateName;

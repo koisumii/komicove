@@ -1,6 +1,6 @@
 import State from "../../../lib/State.js";
 import SoundName from "../../enums/SoundName.js";
-import { debug, sounds, stateMachine } from "../../globals.js";
+import { debug, input, sounds, stateMachine } from "../../globals.js";
 import Map from "../../services/Map.js";
 import Player from "../../entities/Player.js";
 import GameEntity from "../../entities/GameEntity.js";
@@ -9,6 +9,7 @@ import UserInterface from "../../user_interface/UserInterface.js";
 import GameStateName from "../../enums/GameStateName.js";
 import { TransitionType } from "./TransitionState.js";
 import Input from "../../../lib/Input.js";
+import MenuState from "./MenuState.js";
 
 export default class PlayState extends State {
 	/**
@@ -45,14 +46,14 @@ export default class PlayState extends State {
 		this.day = params.day;
 		this.player = params.player;
 
+		this.entities = [params.player];
+		this.scoreThreshold = this.calculateScoreThreshold(this.day?.count);
+		sounds.play(SoundName.AtTheEndOfAllThings);
+
 		this.scoreThresholdReached = false;
 
 		if (this.player !== null)
 			this.scoreThresholdReached = this.player?.score >= this.scoreThreshold;
-
-		this.entities = [params.player];
-		this.scoreThreshold = this.calculateScoreThreshold(this.day?.count);
-		sounds.play(SoundName.AtTheEndOfAllThings);
 	}
 
 	calculateScoreThreshold(day) {
@@ -60,6 +61,18 @@ export default class PlayState extends State {
 	}
 
 	update(dt) {
+		if (input.isKeyPressed(MenuState.PAUSE_KEY)) {
+			// input.keys[MenuState.PAUSE_KEY] = false;
+			stateMachine.change(
+				GameStateName.Menu,
+				{
+					map: this.map,
+					day: this.day,
+					player: this.player
+				}
+			);
+		}
+
 		debug.update();
 		this.userInterface.update(dt);
 		this.map?.update(dt);
