@@ -1,8 +1,6 @@
-import Input from "../../lib/Input.js";
-import Sprite from "../../lib/Sprite.js";
 import Colour from "../enums/Colour.js";
 import ImageName from "../enums/ImageName.js";
-import { CANVAS_HEIGHT, CANVAS_WIDTH, context, images, input } from "../globals.js";
+import { CANVAS_HEIGHT, CANVAS_WIDTH, context, images } from "../globals.js";
 import PlayState from "../states/game/PlayState.js";
 import KeyPrompt from "./KeyPrompt.js";
 import ProgressBanner from "./ProgressBanner.js";
@@ -125,22 +123,31 @@ export default class UserInterface {
         // Information about the fishing rod
         const fishingRodName = this.playState.player?.fishingRod?.name;
         const nameWidth = context.measureText(fishingRodName ?? '').width;
+        const wordWidth = context.measureText('Equipped:').width;
 
+        context.textAlign = 'left';
         context.fillStyle = Colour.White;
+        context.translate(
+            (CANVAS_WIDTH - nameWidth - wordWidth - (this.playState.player?.fishingRod?.sprite.width ?? 0)) / 2 - 30,
+            0
+        );
         context.fillText(
             `Equipped:`,
-            CANVAS_WIDTH - nameWidth - 30,
-            40
+            0,
+            20
         );
         context.fillStyle = this.playState.player?.fishingRod?.color ?? '';
 
         context.fillText(
             fishingRodName ?? '',
-            CANVAS_WIDTH - 20,
-            40
+            wordWidth + 10,
+            20
         );
 
-        this.playState.player?.fishingRod?.sprite.render(CANVAS_WIDTH - 20 - this.playState.player?.fishingRod?.sprite.width, 60);
+        this.playState.player?.fishingRod?.sprite.render(
+            wordWidth + nameWidth + 24,
+            12
+        );
 
         context.restore();
         this.progressBanner?.render();

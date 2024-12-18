@@ -21,6 +21,8 @@ import UserInterface from "../user_interface/UserInterface.js";
 import SoundName from "../enums/SoundName.js";
 import FishingRod from "../objects/FishingRod.js";
 import FishingRodFactory from "../services/FishingRodFactory.js";
+import PlayState from "../states/game/PlayState.js";
+import ProgressBanner from "../user_interface/ProgressBanner.js";
 
 export default class Player extends GameEntity {
     static FISHING_ROD_STORAGE_KEY = 'fishing_rod';
@@ -53,6 +55,11 @@ export default class Player extends GameEntity {
         /** @type {FishingRod?} */
         this.fishingRod = Player.getFishingRod();
 
+        // The score that needs to be reached for the next fishing rod to be acquired
+        this.nextFishingRodScoreThreshold = 0;
+        if (this.fishingRod !== null)
+            this.nextFishingRodScoreThreshold = this.calculateNextFishingRodScoreThreshold(this.fishingRod);
+
         /** @type {ScorePopup[]} */
         this.scorePopups = [];
     }
@@ -73,6 +80,22 @@ export default class Player extends GameEntity {
             )
         );
         sounds.play(SoundName.Score);
+
+        if (this.score >= this.nextFishingRodScoreThreshold) {
+            this.fishingRod = FishingRodFactory.createInstance((this.fishingRod?.tier ?? 0) + 1);
+
+            if (this.fishingRod !== null) {
+
+                this.nextFishingRodScoreThreshold = this.calculateNextFishingRodScoreThreshold(this.fishingRod);
+                localStorage.setItem(Player.FISHING_ROD_STORAGE_KEY, this.fishingRod.tier.toString());
+                
+                PlayState.instance.userInterface.progressBanner = new ProgressBanner(
+                    this.fishingRod?.sprite,
+                    "New Fishing Rod Acquired",
+                    UserInterface.FONT
+                )
+            }
+        }
     }
 
     update(dt) {
@@ -115,8 +138,8 @@ export default class Player extends GameEntity {
 
         context.restore();
 
-        if (this.fish !== null && this.stateMachine.currentState instanceof PlayerHoldingState) {
-            this.fish.render(this.canvasPosition.x, this.canvasPosition.y - 45);
+        if (this.stateMachine.currentState instanceof PlayerHoldingState) {
+            this.fish?.render(this.canvasPosition.x, this.canvasPosition.y - 45);
         }
 
         this.scorePopups.forEach(popup => popup.render());
@@ -156,28 +179,27 @@ export default class Player extends GameEntity {
         return stateMachine;
     }
 
+    /**
+     * 
+     * @param {FishingRod} fishingRod 
+     */
+    calculateNextFishingRodScoreThreshold(fishingRod) {
+        if (fishingRod.tier >= FishingRodFactory.MAX_TIER)
+            return Infinity;
+
+        return fishingRod.tier * 10 + 10;
+    }
+
     static getFishingRod() {
         const storedTier = localStorage.getItem(Player.FISHING_ROD_STORAGE_KEY);
-        let storageIsValid = false;
-        let tier;
-        let fishingRod = null;
+        let tier = parseInt(storedTier ?? '');
 
-        if (storedTier !== null) {
-            tier = parseInt(storedTier);
-
-            if (!Number.isNaN(tier)) {
-                fishingRod = FishingRodFactory.createInstance(tier);
-
-                if (fishingRod !== null)
-                    storageIsValid = true;
-            }
+        // If tier is a number and is within valid range
+        if (!Number.isNaN(tier) && tier <= FishingRodFactory.MAX_TIER) {
+            return FishingRodFactory.createInstance(tier);
         }
 
-        if (storageIsValid)
-            return fishingRod;
-
         localStorage.setItem(Player.FISHING_ROD_STORAGE_KEY, '0');
-
         return FishingRodFactory.createInstance(0);
     }
 }
