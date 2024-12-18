@@ -34,7 +34,7 @@ export default class PlayerCastingState extends State {
     update() {
         // @ts-ignore
         if (this.player.currentAnimation?.isDone()) {
-            this.player.changeState(PlayerStateName.FishingIdle);
+            this.player.changeState(PlayerStateName.Waiting);
         }
     }
 }
