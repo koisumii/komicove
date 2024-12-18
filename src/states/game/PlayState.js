@@ -52,7 +52,7 @@ export default class PlayState extends State {
 		this.userInterface = new UserInterface(this, Input.KEYS.SPACE);
 		this.entities = [params.player];
 		this.scoreThreshold = this.calculateScoreThreshold(this.day?.count);
-		sounds.play(SoundName.AtTheEndOfAllThings);
+		// sounds.play(SoundName.AtTheEndOfAllThings);
 
 		this.scoreThresholdReached = false;
 
@@ -98,7 +98,7 @@ export default class PlayState extends State {
 
 		// If current day ended
 		if (this.day?.shouldProgress) {
-			sounds.stop(SoundName.AtTheEndOfAllThings);
+			// sounds.stop(SoundName.AtTheEndOfAllThings);
 
 			// If the score threshold isn't reached
 			if (!this.scoreThresholdReached && this.player !== null) {
