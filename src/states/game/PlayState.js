@@ -35,7 +35,8 @@ export default class PlayState extends State {
 		/** @type {Day?} */
 		this.day = null;
 
-		this.userInterface = new UserInterface(this, Input.KEYS.SPACE);
+		/** @type {UserInterface?} */
+		this.userInterface = null;
 
 		// the amount of score required to proceed to the next day
 		this.scoreThreshold = 0;
@@ -46,6 +47,7 @@ export default class PlayState extends State {
 		this.day = params.day;
 		this.player = params.player;
 
+		this.userInterface = new UserInterface(this, Input.KEYS.SPACE);
 		this.entities = [params.player];
 		this.scoreThreshold = this.calculateScoreThreshold(this.day?.count);
 		sounds.play(SoundName.AtTheEndOfAllThings);
@@ -74,7 +76,7 @@ export default class PlayState extends State {
 		}
 
 		debug.update();
-		this.userInterface.update(dt);
+		this.userInterface?.update(dt);
 		this.map?.update(dt);
 
 		this.entities.forEach((entity) => entity.update(dt));
@@ -128,7 +130,7 @@ export default class PlayState extends State {
 
 		this.applyNightFilter();
 
-		this.userInterface.render();
+		this.userInterface?.render();
 	}
 
 	applyNightFilter() {
