@@ -16,13 +16,13 @@ export default class FishingRodFactory {
     static createInstance(tier) {
         switch (tier) {
             case 0:
-                return new TelescopicRod();
-            case 1:
-                return new SpinningRod();
-            case 2:
                 return new CastingRod();
-            case 3:
+            case 1:
                 return new FlyRod();
+            case 2:
+                return new SpinningRod();
+            case 3:
+                return new TelescopicRod();
             default:
                 return null;
         }
