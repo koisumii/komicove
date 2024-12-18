@@ -14,13 +14,17 @@ import Input from "../../lib/Input.js";
 import PlayerFishingIdleState from "../states/player/PlayerFishingIdleState.js";
 import PlayerReelingState from "../states/player/PlayerReelingState.js";
 import PlayerHoldingState from "../states/player/PlayerHoldingState.js";
-import BaseFish from "./BaseFish.js";
+import BaseFish from "../objects/BaseFish.js";
 import ScorePopup from "../user_interface/ScorePopup.js";
 import { getRandomNumber } from "../../lib/Random.js";
 import UserInterface from "../user_interface/UserInterface.js";
 import SoundName from "../enums/SoundName.js";
+import FishingRod from "../objects/FishingRod.js";
+import FishingRodFactory from "../services/FishingRodFactory.js";
 
 export default class Player extends GameEntity {
+    static FISHING_ROD_STORAGE_KEY = 'fishing_rod';
+
     /**
      * 
      * @param {Map} map 
@@ -45,6 +49,9 @@ export default class Player extends GameEntity {
         this.fish = null;
         this.score = 0;
         this.totalScore = 0;
+
+        /** @type {FishingRod?} */
+        this.fishingRod = Player.getFishingRod();
 
         /** @type {ScorePopup[]} */
         this.scorePopups = [];
@@ -147,5 +154,30 @@ export default class Player extends GameEntity {
         stateMachine.change(PlayerStateName.Idling);
 
         return stateMachine;
+    }
+
+    static getFishingRod() {
+        const storedTier = localStorage.getItem(Player.FISHING_ROD_STORAGE_KEY);
+        let storageIsValid = false;
+        let tier;
+        let fishingRod = null;
+
+        if (storedTier !== null) {
+            tier = parseInt(storedTier);
+
+            if (!Number.isNaN(tier)) {
+                fishingRod = FishingRodFactory.createInstance(tier);
+
+                if (fishingRod !== null)
+                    storageIsValid = true;
+            }
+        }
+
+        if (storageIsValid)
+            return fishingRod;
+
+        localStorage.setItem(Player.FISHING_ROD_STORAGE_KEY, '0');
+
+        return FishingRodFactory.createInstance(0);
     }
 }

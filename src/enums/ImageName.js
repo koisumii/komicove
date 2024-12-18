@@ -51,8 +51,13 @@ const ImageName = {
     FishSturgeon: 'sturgeon',
     FishWhiteSpottedChar: 'white_spotted_char',
 
+    // Fishing Rod
+    TelescopicRod: 'telescopic_rod',
+    SpinningRod: 'spinning_rod',
+    CastingRod: 'casting_rod',
+    FlyRod: 'fly_rod',
+
     KeyPrompts: 'key_prompts',
-    FishingRod: 'fishing_rod',
     FishBone: 'fishbone'
 };
 

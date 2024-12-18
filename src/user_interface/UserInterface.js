@@ -1,5 +1,6 @@
 import Input from "../../lib/Input.js";
 import Sprite from "../../lib/Sprite.js";
+import Colour from "../enums/Colour.js";
 import ImageName from "../enums/ImageName.js";
 import { CANVAS_HEIGHT, CANVAS_WIDTH, context, images, input } from "../globals.js";
 import PlayState from "../states/game/PlayState.js";
@@ -69,14 +70,14 @@ export default class UserInterface {
         this.keyPrompt.render();
         context.save();
 
-        if (this.fishingBar){
+        if (this.fishingBar) {
             const barWidth = 20;
             const barHeight = 200;
 
             // vertical and positioned to the right of the water
-            const x = CANVAS_WIDTH - 60; 
-            const y = CANVAS_HEIGHT / 2 - barHeight / 2; 
-            
+            const x = CANVAS_WIDTH - 60;
+            const y = CANVAS_HEIGHT / 2 - barHeight / 2;
+
             const progressRatio = this.fishingBarCurrent / this.fishingBarMax;
 
             context.fillStyle = '#E8B796';
@@ -86,7 +87,7 @@ export default class UserInterface {
             // shrinks from top to the bottom
             context.fillRect(
                 x,
-                y + barHeight * (1 - progressRatio), 
+                y + barHeight * (1 - progressRatio),
                 barWidth,
                 barHeight * progressRatio
             );
@@ -100,24 +101,47 @@ export default class UserInterface {
             const fishboneX = x + (barWidth - fishboneImage.width) / 2;
             // follow the progress bar
             const fishboneY = y + barHeight * (1 - progressRatio) - (fishboneImage.height / 2);
-            
+
 
             fishboneImage.render(fishboneX, fishboneY)
         }
 
         context.font = UserInterface.FONT;
-        context.fillStyle = 'white';
+        context.fillStyle = Colour.White;
         context.textBaseline = 'top';
         context.textAlign = 'left';
         context.fillText(`Day ${this.playState.day?.count}`, 20, 20);
         context.fillText(`${this.playState.day?.getTime()}`, 20, 40);
 
         context.textAlign = 'right';
+        if (this.playState.scoreThresholdReached)
+            context.fillStyle = Colour.LightGreen;
         context.fillText(
             `Score: ${this.playState.player?.score} / ${this.playState.scoreThreshold}`,
             CANVAS_WIDTH - 20,
             20
         );
+
+        // Information about the fishing rod
+        const fishingRodName = this.playState.player?.fishingRod?.name;
+        const nameWidth = context.measureText(fishingRodName ?? '').width;
+
+        context.fillStyle = Colour.White;
+        context.fillText(
+            `Equipped:`,
+            CANVAS_WIDTH - nameWidth - 30,
+            40
+        );
+        context.fillStyle = this.playState.player?.fishingRod?.color ?? '';
+
+        context.fillText(
+            fishingRodName ?? '',
+            CANVAS_WIDTH - 20,
+            40
+        );
+
+        this.playState.player?.fishingRod?.sprite.render(CANVAS_WIDTH - 20 - this.playState.player?.fishingRod?.sprite.width, 60);
+
         context.restore();
         this.progressBanner?.render();
     }

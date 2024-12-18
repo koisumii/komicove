@@ -17,7 +17,7 @@ export default class PlayerFishingIdleState extends State {
     enter() {
         this.timer.clear();
         this.player.currentAnimation = this.player.animations["waiting"]; 
-        const fish = FishFactory.createFish();
+        const fish = FishFactory.createFish(this.player.fishingRod?.luckMultiplier);
         let waitTime = fish.getWaitTime();
         this.timer.addTask(() => {
             this.player.fish =  fish;

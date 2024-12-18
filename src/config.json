@@ -289,8 +289,26 @@
 			"height": 32
 		},
 		{
-			"name": "fishing_rod",
-			"path": "./assets/images/fishing_rod.png",
+			"name": "telescopic_rod",
+			"path": "./assets/images/rods/telescopic_rod.png",
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "spinning_rod",
+			"path": "./assets/images/rods/spinning_rod.png",
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "casting_rod",
+			"path": "./assets/images/rods/casting_rod.png",
+			"width": 32,
+			"height": 32
+		},
+		{
+			"name": "fly_rod",
+			"path": "./assets/images/rods/fly_rod.png",
 			"width": 32,
 			"height": 32
 		},

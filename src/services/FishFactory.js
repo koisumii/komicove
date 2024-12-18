@@ -1,6 +1,6 @@
-import CommonFish from "../entities/CommonFish.js";
-import LegendaryFish from "../entities/LegendaryFish.js";
-import RareFish from "../entities/RareFish.js";
+import CommonFish from "../objects/CommonFish.js";
+import LegendaryFish from "../objects/LegendaryFish.js";
+import RareFish from "../objects/RareFish.js";
 import ImageName from "../enums/ImageName.js";
 
 export default class FishFactory {
@@ -57,8 +57,8 @@ export default class FishFactory {
         ImageName.FishWhiteSpottedChar
     ]
 
-    static createFish() {
-        const random = Math.random();
+    static createFish(luckMultiplier) {
+        const random = Math.random() * luckMultiplier;
 
         if(random < 0.6) {
             const image = this.randomImage(this.COMMON_FISH_IMAGES);
