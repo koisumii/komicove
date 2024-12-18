@@ -26,6 +26,7 @@ import GameOverState from './states/game/GameOverState.js';
 import VictoryState from './states/game/VictoryState.js';
 import TitleScreenState from './states/game/TitleScreenState.js';
 import TransitionState from './states/game/TransitionState.js';
+import MenuState from './states/game/MenuState.js';
 
 // Set the dimensions of the play area.
 canvas.width = CANVAS_WIDTH;
@@ -56,6 +57,7 @@ stateMachine.add(GameStateName.GameOver, new GameOverState());
 stateMachine.add(GameStateName.Victory, new VictoryState());
 stateMachine.add(GameStateName.Play, new PlayState());
 stateMachine.add(GameStateName.Transition, new TransitionState());
+stateMachine.add(GameStateName.Menu, new MenuState());
 
 stateMachine.change(GameStateName.TitleScreen);
 
