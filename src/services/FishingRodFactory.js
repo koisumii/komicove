@@ -6,6 +6,8 @@ import FishingRod from "../objects/FishingRod.js";
 
 
 export default class FishingRodFactory {
+    static MAX_TIER = 3;
+    
     /**
      * 
      * @param {number} tier 
