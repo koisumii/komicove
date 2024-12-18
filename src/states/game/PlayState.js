@@ -40,6 +40,8 @@ export default class PlayState extends State {
 
 		// the amount of score required to proceed to the next day
 		this.scoreThreshold = 0;
+
+		this.pause = false;
 	}
 
 	enter(params) {
@@ -59,10 +61,13 @@ export default class PlayState extends State {
 	}
 
 	calculateScoreThreshold(day) {
-		return day * 100;
+		return day * 10;
 	}
 
 	update(dt) {
+		if (input.isKeyPressed(Input.KEYS.H))
+			this.pause = !this.pause;
+
 		if (input.isKeyPressed(MenuState.PAUSE_KEY)) {
 			// input.keys[MenuState.PAUSE_KEY] = false;
 			stateMachine.change(
@@ -81,7 +86,8 @@ export default class PlayState extends State {
 
 		this.entities.forEach((entity) => entity.update(dt));
 
-		this.day?.update(dt);
+		if (!this.pause)
+			this.day?.update(dt);
 
 		if (!this.scoreThresholdReached && this.player !== null) {
 			if (this.player.score >= this.scoreThreshold) {
