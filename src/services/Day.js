@@ -54,4 +54,18 @@ export default class Day {
     getTime() {
         return `${this.hours.toString().padStart(2, "0")}:${(Math.floor(this.minutes / 10) * 10).toString().padStart(2, "0")}`;
     }
+
+    /**
+     * Gets the percentage of darkness based on current time.
+     * @returns {number}
+     */
+    getDarknessLevel() {
+        if (this.hours < 18)
+            return 0;
+
+        if (this.hours >= 19)
+            return 1;
+
+        return (this.minutes * 60 + this.seconds) / (Day.SECONDS_IN_MINUTE * Day.MINUTES_IN_HOUR);
+    }
 }

@@ -1,6 +1,6 @@
 import State from "../../../lib/State.js";
 import SoundName from "../../enums/SoundName.js";
-import { debug, input, sounds, stateMachine } from "../../globals.js";
+import { CANVAS_HEIGHT, CANVAS_WIDTH, context, debug, input, sounds, stateMachine } from "../../globals.js";
 import Map from "../../services/Map.js";
 import Player from "../../entities/Player.js";
 import GameEntity from "../../entities/GameEntity.js";
@@ -126,6 +126,17 @@ export default class PlayState extends State {
 
 		this.entities.forEach((entity) => entity.render());
 
+		this.applyNightFilter();
+
 		this.userInterface.render();
+	}
+
+	applyNightFilter() {
+		if (this.day !== null) {
+			context.save();
+			context.fillStyle = `rgba(0, 0, 50, ${this.day.getDarknessLevel() * 0.4})`;
+			context.fillRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+			context.restore();
+		}
 	}
 }
