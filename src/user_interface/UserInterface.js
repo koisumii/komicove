@@ -93,6 +93,16 @@ export default class UserInterface {
 
             context.strokeStyle = '#733E39';
             context.strokeRect(x, y, barWidth, barHeight);
+
+            const fishboneImage = images.get(ImageName.FishBone);
+
+            // horizontally centered on the progress bar
+            const fishboneX = x + (barWidth - fishboneImage.width) / 2;
+            // follow the progress bar
+            const fishboneY = y + barHeight * (1 - progressRatio) - (fishboneImage.height / 2);
+            
+
+            fishboneImage.render(fishboneX, fishboneY)
         }
 
         context.font = UserInterface.FONT;
