@@ -390,6 +390,12 @@
 			"size": 1,
 			"volume": 0.5,
 			"loop": true
+		},
+		{
+			"name": "reel",
+			"path": "./assets/sounds/reel.mp3",
+			"size": 10,
+			"volume": 0.5
 		}
 	]
 }

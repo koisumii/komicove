@@ -3,7 +3,8 @@ import State from '../../../lib/State.js';
 import Timer from '../../../lib/Timer.js';
 import Player from '../../entities/Player.js';
 import PlayerStateName from '../../enums/PlayerStateName.js';
-import { input } from '../../globals.js';
+import SoundName from '../../enums/SoundName.js';
+import { input, sounds } from '../../globals.js';
 import PlayState from '../game/PlayState.js';
 
 export default class PlayerReelingState extends State {
@@ -44,6 +45,7 @@ export default class PlayerReelingState extends State {
         if(this.player.fish.hp > 0 && input.isKeyPressed(Input.KEYS.SPACE)){
             this.player.fish.hp--;
             PlayState.instance.userInterface.updateFishingBar(this.player.fish.hp)
+            sounds.play(SoundName.Reel);
         }
 
         if(this.player.fish.hp === 0){

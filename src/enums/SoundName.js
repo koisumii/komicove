@@ -7,7 +7,8 @@ const SoundName = {
     GrassWalk: 'grass-walk',
     Progression: 'progression',
     Score: 'score',
-    Checkmark: 'checkmark'
+    Checkmark: 'checkmark',
+    Reel: 'reel'
 };
 
 export default SoundName;
